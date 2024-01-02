@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Local Dev",
+      "type": "npm",
+      "script": "serve",
+      "icon": {
+        "color": "terminal.ansiGreen",
+        "id": "play"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Production Build",
+      "type": "npm",
+      "script": "build",
+      "icon": {
+        "color": "terminal.ansiRed",
+        "id": "root-folder"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Lint",
+      "type": "npm",
+      "script": "lint",
+      "icon": {
+        "color": "terminal.ansiCyan",
+        "id": "code"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

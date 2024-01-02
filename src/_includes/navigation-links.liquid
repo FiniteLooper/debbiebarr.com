@@ -1,0 +1,3 @@
+{%- for nav in site.navigation -%}
+  <a {% if page.url == nav.url %}class="current"{% endif %} href="{{nav.url}}">{{nav.name}}</a>
+{%- endfor -%}

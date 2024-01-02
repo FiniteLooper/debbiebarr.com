@@ -1,0 +1,41 @@
+{
+  "name": "deddiebarr.com",
+  "version": "1.0.0",
+  "description": "Debbie Barr's Website",
+  "homepage": "https://debbiebarr.com",
+  "private": true,
+  "author": "Chris Barr",
+  "license": "none",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FiniteLooper/debbiebarr.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FiniteLooper/debbiebarr.com/issues"
+  },
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "lint": "npm-run-all -s -c lint:scss lint:js",
+    "lint:js": "npx eslint",
+    "lint:js:fix": "npx eslint --fix",
+    "lint:scss": "npx stylelint \"**/*.scss\"",
+    "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
+    "update": "ncu -u && npm i"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@shopify/prettier-plugin-liquid": "^1.4.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "html-minifier": "^4.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "3.1.1",
+    "sass": "^1.69.6",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^12.0.0",
+    "stylelint-prettier": "^5.0.0"
+  }
+}
