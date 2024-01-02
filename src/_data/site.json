@@ -6,6 +6,6 @@
     { "name": "Interviews", "url": "/interviews/" },
     { "name": "About", "url": "/about/" },
     { "name": "Contact", "url": "/contact/" },
-    { "name": "Facebook", "url": "https://facebook.com/debbiebarr" }
+    { "name": "FB", "url": "https://facebook.com/debbiebarr" }
   ]
 }

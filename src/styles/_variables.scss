@@ -1,0 +1,31 @@
+// All variables, mixins, and functions from Bootstrap
+@import '../../node_modules/bootstrap/scss/functions';
+
+// Our custom Bootstrap overrides
+@import 'variables-bootstrap-override';
+
+// Continue importing bootstrap stuff
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/variables-dark';
+@import '../../node_modules/bootstrap/scss/maps';
+@import '../../node_modules/bootstrap/scss/mixins';
+@import '../../node_modules/bootstrap/scss/utilities';
+
+// --------------------------------------------------------------
+// == SITE COLORS ===============================================
+// --------------------------------------------------------------
+$site-color-darkest: #23211e;
+$site-color-darker: #393834;
+$site-color-dark: #4d4c48;
+$site-color-highlight: #e7c748;
+$site-color-link: #827112;
+$site-color-light: #fdfffa;
+$site-color-lightest: #fff;
+
+// --------------------------------------------------------------
+// == SITE SPACING ==============================================
+// --------------------------------------------------------------
+$site-spacing: 40px;
+$site-spacing-sm: calc($site-spacing / 2);
+$site-spacing-desktop: 50px;
+$site-spacing-desktop-sm: calc($site-spacing-desktop / 2);

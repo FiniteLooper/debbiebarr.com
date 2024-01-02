@@ -1,0 +1,49 @@
+// This file is for overriding any default values defined by Bootstrap in `/node_modules/bootstrap/scss/variables`
+
+// --------------------------------------------------------------
+// == FONTS =====================================================
+// --------------------------------------------------------------
+// stylelint-disable value-keyword-case -- We need to maintain these font name casings, so we ignore a lint rule here
+$font-family-base:
+  adelle,
+  system-ui,
+  -apple-system,
+  Arial,
+  serif,
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  'Segoe UI Symbol',
+  'Noto Color Emoji';
+// stylelint-enable value-keyword-case
+
+// --------------------------------------------------------------
+// == GRID ======================================================
+// --------------------------------------------------------------
+// Same as the defaults, but we just don't need all the breakpoint sizes
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  // xxl: 1400px,
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  // xxl: 1320px,
+);
+
+// --------------------------------------------------------------
+// == OPTIONS ===================================================
+// --------------------------------------------------------------
+$enable-rfs: false;
+$enable-dark-mode: false;
+
+// --------------------------------------------------------------
+// == COLORS ====================================================
+// --------------------------------------------------------------
+$body-bg: #fdfffa;
+$link-color: #827112;
