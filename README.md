@@ -1,6 +1,6 @@
 # Public website for Debbie Barr
 
-http://debbiebarr.com
+http://debbiebarr.com (eventually)
 
 ## Development
 
