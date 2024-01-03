@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{ '/styles/bootstrap.css' | url }}" />
     <link rel="stylesheet" href="{{ '/styles/site.css' | url }}" />
   </head>
-  <body>
+  <body class="d-flex flex-column">
     <header id="header">
       <div class="d-flex align-items-baseline justify-content-between justify-content-md-center">
         <button type="button" id="toggle-sidebar" class="d-md-none" aria-label="Toggle Navigation">
@@ -37,17 +37,17 @@
         {% include "navigation-links.liquid" %}
       </nav>
 
-      <footer class="mt-auto">
+      <footer class="mt-auto text-center">
         site by <a href="https://chrisbarr.me" target="_blank">Chris Barr</a>
       </footer>
     </aside>
     <div id="sidebar-backdrop" class="d-md-none"></div>
 
-    <main id="main-content" role="main">
+    <main id="main-content" class="flex-fill" role="main">
       <div class="container">{{ content }}</div>
     </main>
 
-    <footer class="container">
+    <footer id="main-footer" class="container text-center">
       site by <a href="https://chrisbarr.me" target="_blank">Chris Barr</a>
     </footer>
 

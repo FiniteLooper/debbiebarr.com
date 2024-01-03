@@ -1,3 +1,8 @@
+body,
+html {
+  min-height: 100vh;
+}
+
 #main-content {
   h2,
   h3,
@@ -5,5 +10,13 @@
   h5,
   h6 {
     font-family: kepler-std-subhead, serif;
+  }
+}
+
+#main-content {
+  padding: $site-spacing 0;
+
+  @include media-breakpoint-up(md) {
+    padding: $site-spacing-desktop 0;
   }
 }
