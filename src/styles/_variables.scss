@@ -29,3 +29,12 @@ $site-spacing: 40px;
 $site-spacing-sm: calc($site-spacing / 2);
 $site-spacing-desktop: 50px;
 $site-spacing-desktop-sm: calc($site-spacing-desktop / 2);
+
+// --------------------------------------------------------------
+// == ANIMATION & SHADOWS =======================================
+// --------------------------------------------------------------
+$ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+$ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+$duration: 400ms;
+$duration-fast: calc($duration / 2);
+$shadow: rgba($site-color-darkest, 30%) 0 0 15px 5px;

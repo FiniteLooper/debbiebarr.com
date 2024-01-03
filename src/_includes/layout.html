@@ -19,19 +19,38 @@
   </head>
   <body>
     <header id="header">
-      <h1>Debbie Barr</h1>
+      <div class="d-flex align-items-baseline justify-content-between justify-content-md-center">
+        <button type="button" id="toggle-sidebar" class="d-md-none" aria-label="Toggle Navigation">
+          ☰
+        </button>
+        <h1 class="">Debbie Barr</h1>
+        <div id="mobile-spacer" class="d-md-none invisible">☰</div>
+      </div>
       <nav id="header-navigation" class="container d-none d-md-block">
         {% include "navigation-links.liquid" %}
       </nav>
     </header>
 
-    <aside id="sidebar" class="d-md-none">
-      <nav id="side-navigation">{% include "navigation-links.liquid" %}</nav>
+    <aside id="sidebar" class="d-md-none position-fixed top-0 bottom-0 start-0 d-flex flex-column">
+      <button type="button" id="close-sidebar" aria-label="Close Navigation">&times;</button>
+      <nav id="side-navigation" class="d-flex flex-column">
+        {% include "navigation-links.liquid" %}
+      </nav>
+
+      <footer class="mt-auto">
+        site by <a href="https://chrisbarr.me" target="_blank">Chris Barr</a>
+      </footer>
     </aside>
     <div id="sidebar-backdrop" class="d-md-none"></div>
 
     <main id="main-content" role="main">
       <div class="container">{{ content }}</div>
     </main>
+
+    <footer class="container">
+      site by <a href="https://chrisbarr.me" target="_blank">Chris Barr</a>
+    </footer>
+
+    <script src="{{ '/js/site.js' | url }}"></script>
   </body>
 </html>
