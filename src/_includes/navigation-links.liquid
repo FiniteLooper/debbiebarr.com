@@ -1,3 +1,9 @@
 {%- for nav in site.navigation -%}
-  <a {% if page.url == nav.url %}class="current" {% endif %}href="{{nav.url | url}}">{{nav.name}}</a>
+  <a {% if page.url == nav.url %}class="current" {% endif %}href="{{nav.url | url}}">
+    {% if nav.name == 'Facebook' %}
+    <svg class="icon" role="img"><use xlink:href="#facebook-logo" /></svg>
+    {% else %}
+    {{nav.name}}
+    {% endif %}
+  </a>
 {%- endfor -%}

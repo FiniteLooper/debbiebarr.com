@@ -33,8 +33,49 @@ $site-spacing-desktop-sm: calc($site-spacing-desktop / 2);
 // --------------------------------------------------------------
 // == ANIMATION & SHADOWS =======================================
 // --------------------------------------------------------------
-$ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
-$ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-$duration: 400ms;
-$duration-fast: calc($duration / 2);
-$shadow: rgba($site-color-darkest, 30%) 0 0 15px 5px;
+$site-ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+$site-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+$site-duration: 400ms;
+$site-duration-fast: calc($site-duration / 2);
+$site-shadow: rgba($site-color-darkest, 30%) 0 0 15px 5px;
+
+// --------------------------------------------------------------
+// == HEADER & NAVIGATION =======================================
+// --------------------------------------------------------------
+$site-header-bg: $site-color-darkest;
+$site-header-title-color: $site-color-highlight;
+$site-header-title-font-family: kepler-std, serif;
+$site-header-title-font-weight: 500;
+$site-header-title-font-size: 2.8rem;
+$site-header-title-font-size-sm: 3.375rem; //~60px height
+$site-header-title-font-size-desktop: 4.375rem; //~70px height
+$site-header-title-line-height: 0.75;
+$site-header-title-letter-spacing-desktop: 0.5rem;
+$site-header-title-margin: 0;
+$site-header-title-margin-desktop: 0 0 0;
+$site-header-title-padding: $site-spacing-sm 0;
+$site-header-title-padding-desktop: $site-spacing-desktop 0 $site-spacing-desktop-sm 0;
+
+$site-shared-nav-font-size: 1.25rem;
+$site-shared-nav-font-weight: 300;
+$site-shared-nav-line-height: 0.75;
+$site-shared-nav-color: $site-color-light;
+$site-shared-nav-color-current: $site-color-highlight;
+$site-shared-nav-bg-hover: rgba($site-color-light, 5%);
+$site-shared-nav-bg-current: rgba($site-color-light, 10%);
+$site-header-nav-padding: $site-spacing-desktop-sm;
+$site-sidebar-nav-padding: $site-spacing-sm $site-spacing;
+
+$site-sidebar-toggles-font-size: 2rem;
+$site-sidebar-toggles-font-size-sm: 3rem;
+$site-sidebar-toggles-line-height: $site-header-title-line-height;
+$site-sidebar-toggles-padding: $site-spacing-sm;
+$site-sidebar-close-font-size: 3rem;
+
+$site-sidebar-bg: $site-header-bg;
+$site-sidebar-z-index: 100;
+$site-sidebar-shadow: $site-shadow;
+$site-sidebar-footer-color: $site-color-light;
+
+$site-sidebar-backdrop-bg: rgba($site-color-darkest, 60%);
+$site-sidebar-backdrop-z-index: calc($site-sidebar-z-index - 1);
