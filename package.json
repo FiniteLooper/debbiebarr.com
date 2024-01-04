@@ -16,6 +16,7 @@
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
+    "build:gh-pages": "npx @11ty/eleventy --pathprefix 'debbiebarr.com'",
     "lint": "npm-run-all -s -c lint:scss lint:js",
     "lint:js": "npx eslint",
     "lint:js:fix": "npx eslint --fix",
@@ -33,7 +34,7 @@
     "html-minifier": "^4.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "3.1.1",
-    "sass": "^1.69.6",
+    "sass": "^1.69.7",
     "stylelint": "^16.1.0",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-config-standard-scss": "^12.0.0",
