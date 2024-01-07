@@ -10,9 +10,9 @@ permalink: 'books/books-for-caregivers/'
 </nav>
 
 <div class="container" id="books-grid">
-  {%- for book in books -%} {%- if book.isCaregivers -%}
+  {% for book in books %} {% if book.isCaregivers %}
   <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
     <img src="{{ book.coverImageUrl | url }}" alt="{{book.title}}" />
   </a>
-  {%- endif -%} {%- endfor -%}
+  {% endif %} {% endfor %}
 </div>

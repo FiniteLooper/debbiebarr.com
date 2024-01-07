@@ -1,4 +1,4 @@
-{%- for nav in site.navigation -%}
+{% for nav in site.navigation %}
   {% if nav.name == 'Facebook' %}
     <a href="{{nav.url | url}}" target="_blank" class="facebook-link{% if page.url == nav.url %} current{% endif %}" >
       <svg class="icon" role="img"><use xlink:href="#facebook-logo" /></svg>
@@ -12,4 +12,4 @@
     {{nav.name}}
     </a>
   {% endif %}
-{%- endfor -%}
+{% endfor %}

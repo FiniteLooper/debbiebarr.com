@@ -16,26 +16,26 @@ permalink: 'books/{{ book.title | slugify }}/'
 
   <div class="row">
     <div class="col">
-      {%- if book.isCaregivers -%}
+      {% if book.isCaregivers %}
       <div class="my-4">
         See my other
         <a href="{{ '/books/books-for-caregivers' | url}}">books for caregivers</a>
       </div>
-      {%- endif -%}
+      {% endif %}
 
       <ul>
-        {%- for linkCategory in book.linkCategories -%}
+        {% for linkCategory in book.linkCategories %}
         <li>
           <strong>{{linkCategory.type}}</strong>
           <ul>
-            {%- for link in linkCategory.links -%}
+            {% for link in linkCategory.links %}
             <li>
               <a href="{{link.url}}" target="_blank">{{link.name}}</a>
             </li>
-            {%- endfor -%}
+            {% endfor %}
           </ul>
         </li>
-        {%- endfor -%}
+        {% endfor %}
       </ul>
     </div>
     <div class="col">
