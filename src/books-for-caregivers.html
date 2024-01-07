@@ -1,17 +1,18 @@
 ---
 layout: layout.html
-title: Books
+title: Books For Caregivers
+permalink: books/books-for-caregivers
 ---
 
 <nav id="sub-navigation" class="d-flex justify-content-center align-items-end text-uppercase">
-  <a href="/books" class="current">All Books</a>
-  <a href="/books/books-for-caregivers">Books For Caregivers</a>
+  <a href="/books">All Books</a>
+  <a href="/books/books-for-caregivers" class="current">Books For Caregivers</a>
 </nav>
 
 <div class="container" id="books-grid">
-  {%- for book in books -%}
+  {%- for book in books -%} {%- if book.isCaregivers -%}
   <a href="{{ book.title | slugify }}/">
     <img src="{{ book.coverImageUrl | url }}" alt="{{book.title}}" />
   </a>
-  {%- endfor -%}
+  {%- endif -%} {%- endfor -%}
 </div>

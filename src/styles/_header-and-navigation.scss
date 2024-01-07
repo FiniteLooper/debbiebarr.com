@@ -8,7 +8,6 @@
     font-size: $site-header-title-font-size;
 
     line-height: $site-header-title-line-height;
-    text-transform: uppercase;
     margin: $site-header-title-margin;
     padding: $site-header-title-padding;
   }
@@ -32,12 +31,12 @@
 //Shared navigation styles
 #header-navigation a,
 #sidebar nav a,
+#sub-navigation a,
 #toggle-sidebar,
 #close-sidebar {
   color: $site-shared-nav-color;
   line-height: $site-shared-nav-line-height;
   text-decoration: none;
-  text-transform: uppercase;
 
   &:hover {
     background-color: $site-shared-nav-bg-hover;
@@ -51,7 +50,11 @@
     width: $site-shared-nav-font-size;
     height: $site-shared-nav-font-size;
   }
+}
 
+#header-navigation,
+#sidebar nav,
+#sub-navigation {
   a {
     font-size: $site-shared-nav-font-size;
     font-weight: $site-shared-nav-font-weight;
@@ -65,7 +68,32 @@
 
 #header-navigation {
   a {
-    padding: $site-header-nav-padding;
+    padding: $site-header-nav-item-padding;
+
+    &.facebook-link {
+      //Needed to align this icon site with the text
+      padding-top: calc($site-header-nav-item-padding - 5px);
+    }
+  }
+}
+
+#sub-navigation {
+  background-color: $site-sub-nav-bg;
+  padding: $site-sub-nav-padding;
+  margin: -$site-spacing 0 $site-spacing 0;
+
+  a {
+    font-size: $site-sub-nav-font-size;
+    padding: $site-sub-nav-item-padding;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding: $site-sub-nav-padding-desktop;
+    margin: -$site-spacing-desktop 0 $site-spacing-desktop 0;
+
+    a {
+      padding: $site-sub-nav-item-padding-desktop;
+    }
   }
 }
 
@@ -102,7 +130,7 @@
 
   nav {
     a {
-      padding: $site-sidebar-nav-padding;
+      padding: $site-sidebar-nav-item-padding;
     }
   }
 

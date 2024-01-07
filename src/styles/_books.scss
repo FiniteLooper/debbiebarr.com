@@ -1,0 +1,21 @@
+#books-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+
+  @include media-breakpoint-up(md) {
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  a {
+    img {
+      width: 100%;
+      box-shadow: $site-shadow;
+    }
+  }
+}

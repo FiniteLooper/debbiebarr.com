@@ -1,0 +1,47 @@
+---
+layout: layout.html
+eleventyComputed:
+  title: '{{ book.title }}'
+pagination:
+  data: books
+  size: 1
+  alias: book
+permalink: 'books/{{ book.title | slugify }}/'
+---
+
+<div class="container">
+  <h2>{{book.title}}</h2>
+  <h3>{{book.subtitle}}</h3>
+  <img src="{{ book.coverImageUrl | url }}" alt="{{book.title}}" />
+
+  <div class="row">
+    <div class="col">
+      {%- if book.isCaregivers -%}
+      <div class="my-4">
+        See my other
+        <a href="{{ '/books/books-for-caregivers' | url}}">books for caregivers</a>
+      </div>
+      {%- endif -%}
+
+      <ul>
+        {%- for linkCategory in book.linkCategories -%}
+        <li>
+          <strong>{{linkCategory.type}}</strong>
+          <ul>
+            {%- for link in linkCategory.links -%}
+            <li>
+              <a href="{{link.url}}" target="_blank">{{link.name}}</a>
+            </li>
+            {%- endfor -%}
+          </ul>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    <div class="col">
+      <div>Description: {{book.description}}</div>
+
+      <div>Praise: {{book.praise}}</div>
+    </div>
+  </div>
+</div>

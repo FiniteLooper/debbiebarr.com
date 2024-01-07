@@ -1,9 +1,15 @@
 {%- for nav in site.navigation -%}
-  <a {% if page.url == nav.url %}class="current" {% endif %}href="{{nav.url | url}}"{% if nav.name == 'Facebook' %} target="_blank"{% endif %}>
-    {% if nav.name == 'Facebook' %}
-    <svg class="icon" role="img"><use xlink:href="#facebook-logo" /></svg>
-    {% else %}
+  {% if nav.name == 'Facebook' %}
+    <a href="{{nav.url | url}}" target="_blank" class="facebook-link{% if page.url == nav.url %} current{% endif %}" >
+      <svg class="icon" role="img"><use xlink:href="#facebook-logo" /></svg>
+    </a>
+  {% elsif nav.name == 'Books' %}
+    <a href="{{nav.url | url}}"{% if page.url contains nav.url %} class="current"{% endif %}>
+      {{nav.name}}
+    </a>
+  {% else %}
+    <a href="{{nav.url | url}}"{% if page.url == nav.url %} class="current"{% endif %}>
     {{nav.name}}
-    {% endif %}
-  </a>
+    </a>
+  {% endif %}
 {%- endfor -%}

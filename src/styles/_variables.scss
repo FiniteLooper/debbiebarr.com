@@ -37,7 +37,7 @@ $site-ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
 $site-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 $site-duration: 400ms;
 $site-duration-fast: calc($site-duration / 2);
-$site-shadow: rgba($site-color-darkest, 30%) 0 0 15px 5px;
+$site-shadow: rgba($site-color-darkest, 15%) 2px 2px 8px 0;
 
 // --------------------------------------------------------------
 // == HEADER & NAVIGATION =======================================
@@ -63,8 +63,14 @@ $site-shared-nav-color: $site-color-light;
 $site-shared-nav-color-current: $site-color-highlight;
 $site-shared-nav-bg-hover: rgba($site-color-light, 5%);
 $site-shared-nav-bg-current: rgba($site-color-light, 10%);
-$site-header-nav-padding: $site-spacing-desktop-sm;
-$site-sidebar-nav-padding: $site-spacing-sm $site-spacing;
+$site-header-nav-item-padding: $site-spacing-desktop-sm;
+$site-sub-nav-bg: $site-color-darker;
+$site-sub-nav-font-size: 1rem;
+$site-sub-nav-padding: $site-spacing-sm 0 0 0;
+$site-sub-nav-padding-desktop: $site-spacing-desktop-sm 0 0 0;
+$site-sub-nav-item-padding: $site-spacing-sm;
+$site-sub-nav-item-padding-desktop: $site-spacing-desktop-sm;
+$site-sidebar-nav-item-padding: $site-spacing-sm $site-spacing;
 
 $site-sidebar-toggles-font-size: 2rem;
 $site-sidebar-toggles-font-size-sm: 3rem;

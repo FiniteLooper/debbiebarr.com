@@ -1,11 +1,14 @@
 {
   "name": "Debbie Barr",
+  "description": "Debbie Barr is an author...",
+  "siteByName": "Chris Barr",
+  "siteByUrl": "https://chrisbarr.me",
   "navigation": [
     { "name": "Home", "url": "/" },
-    { "name": "Books", "url": "/books/" },
-    { "name": "Interviews", "url": "/interviews/" },
-    { "name": "About", "url": "/about/" },
-    { "name": "Contact", "url": "/contact/" },
+    { "name": "Books", "url": "/books" },
+    { "name": "Interviews", "url": "/interviews" },
+    { "name": "About", "url": "/about" },
+    { "name": "Contact", "url": "/contact" },
     { "name": "Facebook", "url": "https://facebook.com/debbiebarr" }
   ]
 }

@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#23211E" />
-    <meta name="author" content="Debbie Barr" />
-    <meta name="description" content="Debbie Barr is an author..." />
+    <meta name="author" content="{{site.name}}" />
+    <meta name="description" content="{{site.description}}" />
     <link rel="icon" type="image/x-icon" href="{{ '/img/favicon/favicon.ico' | url }}" />
     <link
       rel="apple-touch-icon"
@@ -37,12 +37,12 @@
         <button type="button" id="toggle-sidebar" class="d-md-none" aria-label="Toggle Navigation">
           ☰
         </button>
-        <h1 class="">Debbie Barr</h1>
+        <h1 class="text-uppercase">{{site.name}}</h1>
         <div id="mobile-spacer" class="d-none d-sm-block d-md-none invisible">☰</div>
       </div>
       <nav
         id="header-navigation"
-        class="container d-none d-md-flex justify-content-center align-items-center"
+        class="container d-none d-md-flex justify-content-center align-items-end text-uppercase"
       >
         {% include "navigation-links.liquid" %}
       </nav>
@@ -50,22 +50,20 @@
 
     <aside id="sidebar" class="d-md-none position-fixed top-0 bottom-0 start-0 d-flex flex-column">
       <button type="button" id="close-sidebar" aria-label="Close Navigation">&#128936;</button>
-      <nav id="side-navigation" class="d-flex flex-column">
+      <nav id="side-navigation" class="d-flex flex-column text-uppercase">
         {% include "navigation-links.liquid" %}
       </nav>
 
       <footer class="mt-auto text-center">
-        site by <a href="https://chrisbarr.me" target="_blank">Chris Barr</a>
+        site by <a href="{{site.siteByUrl}}" target="_blank">{{site.siteByName}}</a>
       </footer>
     </aside>
     <div id="sidebar-backdrop" class="d-md-none"></div>
 
-    <main id="main-content" class="flex-fill" role="main">
-      <div class="container">{{ content }}</div>
-    </main>
+    <main id="main-content" class="flex-fill" role="main">{{ content }}</main>
 
     <footer id="main-footer" class="container text-center d-none d-md-block">
-      site by <a href="https://chrisbarr.me" target="_blank">Chris Barr</a>
+      site by <a href="{{site.siteByUrl}}" target="_blank">{{site.siteByName}}</a>
     </footer>
 
     <svg xmlns="http://www.w3.org/2000/svg" class="visually-hidden">
