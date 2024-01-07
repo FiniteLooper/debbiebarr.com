@@ -10,7 +10,7 @@ title: Books
 
 <div class="container" id="books-grid">
   {%- for book in books -%}
-  <a href="{{ book.title | slugify }}/">
+  <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
     <img src="{{ book.coverImageUrl | url }}" alt="{{book.title}}" />
   </a>
   {%- endfor -%}

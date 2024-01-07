@@ -11,7 +11,7 @@ permalink: 'books/books-for-caregivers/'
 
 <div class="container" id="books-grid">
   {%- for book in books -%} {%- if book.isCaregivers -%}
-  <a href="{{ book.title | slugify }}/">
+  <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
     <img src="{{ book.coverImageUrl | url }}" alt="{{book.title}}" />
   </a>
   {%- endif -%} {%- endfor -%}
