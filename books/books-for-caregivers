@@ -73,7 +73,7 @@
     </header>
 
     <aside id="sidebar" class="d-md-none position-fixed top-0 bottom-0 start-0 d-flex flex-column">
-      <button type="button" id="close-sidebar" aria-label="Close Navigation">&#128936;</button>
+      <button type="button" id="close-sidebar" aria-label="Close Navigation">&#10006;</button>
       <nav id="side-navigation" class="d-flex flex-column text-uppercase">
         
     <a href="/debbiebarr.com/">
@@ -110,8 +110,8 @@
 
     <main id="main-content" class="flex-fill" role="main">
 <nav id="sub-navigation" class="d-flex justify-content-center align-items-end text-uppercase">
-  <a href="/books">All Books</a>
-  <a href="/books/books-for-caregivers" class="current">Books For Caregivers</a>
+  <a href="/debbiebarr.com/books">All Books</a>
+  <a href="/debbiebarr.com/books/books-for-caregivers" class="current">Books For Caregivers</a>
 </nav>
 
 <div class="container" id="books-grid"><a href="caregiving/">
