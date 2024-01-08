@@ -12,7 +12,7 @@ permalink: 'books/{{ book.title | slugify }}/'
 <div class="container">
   <h2>{{book.title}}</h2>
   <h3>{{book.subtitle}}</h3>
-  <img src="{{ book.coverImageUrl | url }}" alt="{{book.title}}" />
+  <img src="{{ book.coverImageUrl | url }}" class="shadow" alt="{{book.title}}" />
 
   <div class="row">
     <div class="col">

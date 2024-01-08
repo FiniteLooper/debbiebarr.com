@@ -3,7 +3,10 @@ layout: layout.html
 title: Books
 ---
 
-<nav id="sub-navigation" class="d-flex justify-content-center align-items-end text-uppercase">
+<nav
+  id="sub-navigation"
+  class="flush-with-header d-flex justify-content-center align-items-end text-uppercase"
+>
   <a href="{{'/books' | url }}" class="current">All Books</a>
   <a href="{{'/books/books-for-caregivers' | url }}">Books For Caregivers</a>
 </nav>
@@ -12,7 +15,7 @@ title: Books
   {% for book in books %}
 
   <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
-    <img src="{{ book.coverImageUrl | url }}" alt="{{book.title}}" />
+    <img src="{{ book.coverImageUrl | url }}" class="w-100 shadow" alt="{{book.title}}" />
   </a>
   {% endfor %}
 </div>

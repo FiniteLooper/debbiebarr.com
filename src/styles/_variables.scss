@@ -37,7 +37,7 @@ $site-ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
 $site-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 $site-duration: 400ms;
 $site-duration-fast: calc($site-duration / 2);
-$site-shadow: rgba($site-color-darkest, 15%) 2px 2px 8px 0;
+$site-text-shadow: rgba($site-color-darkest, 30%) 2px 2px 4px; //similar to the box shadow we've set in the bootstrap overrides
 
 // --------------------------------------------------------------
 // == HEADER & NAVIGATION =======================================
@@ -80,7 +80,6 @@ $site-sidebar-close-font-size: 3rem;
 
 $site-sidebar-bg: $site-header-bg;
 $site-sidebar-z-index: 100;
-$site-sidebar-shadow: $site-shadow;
 $site-sidebar-footer-color: $site-color-light;
 
 $site-sidebar-backdrop-bg: rgba($site-color-darkest, 60%);

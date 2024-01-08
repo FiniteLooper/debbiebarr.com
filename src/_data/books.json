@@ -2,6 +2,7 @@
   {
     "title": "Forgiveness",
     "subtitle": "The Choice that Sets You Free",
+    "isFeatured": true,
     "isCaregivers": false,
     "coverImageUrl": "/img/book-covers/forgiveness.jpg",
     "detailHeaderImageUrl": "",
@@ -72,6 +73,7 @@
   {
     "title": "Caregiving",
     "subtitle": "Taking Care of Yourself While Caring for Someone Else",
+    "isFeatured": true,
     "isCaregivers": true,
     "coverImageUrl": "/img/book-covers/caregiving.jpg",
     "detailHeaderImageUrl": "",
@@ -142,6 +144,7 @@
   {
     "title": "Grace For The Unexpected Journey",
     "subtitle": "A 60-Day Devotional for Alzheimer's and Other Dementia Caregivers",
+    "isFeatured": true,
     "isCaregivers": true,
     "coverImageUrl": "/img/book-covers/grace-for-the-unexpected-journey.png",
     "detailHeaderImageUrl": "",
@@ -212,6 +215,7 @@
   {
     "title": "Strength For The Cancer Journey",
     "subtitle": "30 Days of Inspiration, Encouragement, and Comfort",
+    "isFeatured": true,
     "isCaregivers": false,
     "coverImageUrl": "/img/book-covers/strength-for-the-cancer-journey.png",
     "detailHeaderImageUrl": "",
@@ -282,6 +286,7 @@
   {
     "title": "Keeping Love Alive as Memories Fade",
     "subtitle": "A 5 Love Languages and Alzheimer's Journey",
+    "isFeatured": false,
     "isCaregivers": true,
     "coverImageUrl": "/img/book-covers/keeping-love-alive-as-memories-fade.png",
     "detailHeaderImageUrl": "",
@@ -352,6 +357,7 @@
   {
     "title": "Children of Divorce",
     "subtitle": "Helping Kids When Their Parents Are Apart",
+    "isFeatured": false,
     "isCaregivers": false,
     "coverImageUrl": "/img/book-covers/children-of-divorce.png",
     "detailHeaderImageUrl": "",
@@ -422,6 +428,7 @@
   {
     "title": "When Your Son or Daughter is Going Through A Divorce",
     "subtitle": "How to Be a Positive Influence During a Difficult Experience",
+    "isFeatured": false,
     "isCaregivers": false,
     "coverImageUrl": "/img/book-covers/when-your-son-or-daughter-is-going-through-a-divorce.png",
     "detailHeaderImageUrl": "",
@@ -492,6 +499,7 @@
   {
     "title": "A Season at Home",
     "subtitle": "The Joy of Fully Sharing Your Child's Critical Years",
+    "isFeatured": false,
     "isCaregivers": false,
     "coverImageUrl": "/img/book-covers/a-season-at-home.png",
     "detailHeaderImageUrl": "",

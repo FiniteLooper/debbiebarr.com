@@ -11,11 +11,4 @@
   @include media-breakpoint-up(lg) {
     grid-template-columns: repeat(4, 1fr);
   }
-
-  a {
-    img {
-      width: 100%;
-      box-shadow: $site-shadow;
-    }
-  }
 }

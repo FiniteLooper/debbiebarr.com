@@ -3,4 +3,34 @@ layout: layout.html
 title:
 ---
 
-<div class="container">Home content goes here</div>
+<div id="home-feature" class="flush-with-header">
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-8 col-sm-8 col-md-9 col-lg-4 col-xl-5">
+        <h2>2024 Releases</h2>
+        <p class="d-none d-sm-block">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="col-12 col-lg-4 col-xl-5">
+        <div id="home-feature-books">
+          {% for book in books %} {% if book.isFeatured %}
+          <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
+            <img src="{{ book.coverImageUrl | url }}" class="w-100 shadow" alt="{{book.title}}" />
+          </a>
+          {% endif %} {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <p class="d-sm-none" aria-hidden="true">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat.
+  </p>
+</div>

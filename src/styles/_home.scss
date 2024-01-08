@@ -1,0 +1,62 @@
+#home-feature {
+  color: $site-color-light;
+  padding-top: $site-spacing;
+  text-shadow: $site-text-shadow;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url('../img/home-feature-bg-575.jpg');
+  // height: 240px;
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  @include media-breakpoint-up(sm) {
+    background-image: url('../img/home-feature-bg-768.jpg');
+    height: 430px;
+
+    h2 {
+      font-size: 3rem;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-top: $site-spacing-desktop;
+    background-image: url('../img/home-feature-bg-992.jpg');
+    height: 460px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-image: url('../img/home-feature-bg-1200.jpg');
+    height: 600px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-image: url('../img/home-feature-bg-1920.jpg');
+    height: 720px;
+  }
+}
+
+#home-feature-books {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  margin-top: 110px;
+
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    bottom: -80px;
+    margin-top: 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    bottom: -160px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(2, 1fr);
+    bottom: auto;
+  }
+}
