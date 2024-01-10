@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 #home-feature {
   color: $site-color-light;
   padding-top: $site-spacing;
@@ -35,8 +37,10 @@
     height: 720px;
   }
 
-  //TODO: What about larger screens?
-  // background-position: center;
+  //Anything larger than the BG image we just center the BG
+  @media (min-width: 1920px) {
+    background-position: center;
+  }
 
   //High DPI Screens use higher-resolution images scaled back down
   @media only screen and (min-device-pixel-ratio: 2) {

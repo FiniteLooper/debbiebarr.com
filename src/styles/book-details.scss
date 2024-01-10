@@ -1,0 +1,37 @@
+@use 'variables' as *;
+
+#book-details-wrapper {
+  padding-top: $site-spacing;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 200px;
+  background-image: linear-gradient(#027750, #0f9384);
+
+  @include media-breakpoint-up(md) {
+    padding-top: $site-spacing-desktop;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-size: auto 300px;
+  }
+}
+
+#book-details-titles {
+  color: $site-color-light;
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+#book-details-links {
+  margin-top: 200px + $site-spacing;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 0;
+  }
+}

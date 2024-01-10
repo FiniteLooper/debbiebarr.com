@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 body,
 html {
   min-height: 100vh;
@@ -22,9 +24,17 @@ html {
 }
 
 .flush-with-header {
-  margin: -$site-spacing 0 $site-spacing 0;
+  margin-top: -$site-spacing;
+
+  &.content-spacer {
+    margin-bottom: $site-spacing;
+  }
 
   @include media-breakpoint-up(md) {
-    margin: -$site-spacing-desktop 0 $site-spacing-desktop 0;
+    margin-top: -$site-spacing-desktop;
+
+    &.content-spacer {
+      margin-bottom: $site-spacing-desktop;
+    }
   }
 }
