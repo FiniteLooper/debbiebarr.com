@@ -1,23 +1,30 @@
 @use 'variables' as *;
 
+$details-header-img-height: 300px;
+
 #book-details-wrapper {
   padding-top: $site-spacing;
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: auto 200px;
+  background-size: auto $details-header-img-height;
   background-image: linear-gradient(#027750, #0f9384);
+
+  > .container {
+    position: relative;
+  }
 
   @include media-breakpoint-up(md) {
     padding-top: $site-spacing-desktop;
-  }
-
-  @include media-breakpoint-up(lg) {
-    background-size: auto 300px;
   }
 }
 
 #book-details-titles {
   color: $site-color-light;
+
+  h2,
+  h3 {
+    line-height: $site-header-title-line-height;
+  }
 
   h2 {
     font-size: 4rem;
@@ -26,12 +33,27 @@
   h3 {
     font-size: 1.5rem;
   }
+
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+    left: 330px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    left: 390px;
+  }
 }
 
 #book-details-links {
-  margin-top: 200px + $site-spacing;
+  margin-top: 160px;
 
   @include media-breakpoint-up(lg) {
     margin-top: 0;
+  }
+}
+
+#book-details-content {
+  @include media-breakpoint-up(lg) {
+    margin-top: $details-header-img-height - $site-spacing-desktop;
   }
 }

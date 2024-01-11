@@ -33,7 +33,7 @@
 //Shared navigation styles
 #header-navigation a,
 #sidebar nav a,
-#sub-navigation a,
+.sub-navigation a,
 #toggle-sidebar,
 #close-sidebar {
   color: $site-shared-nav-color;
@@ -56,7 +56,7 @@
 
 #header-navigation,
 #sidebar nav,
-#sub-navigation {
+.sub-navigation {
   a {
     font-size: $site-shared-nav-font-size;
     font-weight: $site-shared-nav-font-weight;
@@ -79,9 +79,12 @@
   }
 }
 
-#sub-navigation {
+.sub-navigation {
   background-color: $site-sub-nav-bg;
-  padding: $site-sub-nav-padding;
+
+  &.header-sub-navigation {
+    padding: $site-sub-nav-padding;
+  }
 
   a {
     font-size: $site-sub-nav-font-size;
@@ -89,10 +92,12 @@
   }
 
   @include media-breakpoint-up(md) {
-    padding: $site-sub-nav-padding-desktop;
+    &.header-sub-navigation {
+      padding: $site-sub-nav-padding-desktop;
 
-    a {
-      padding: $site-sub-nav-item-padding-desktop;
+      a {
+        padding: $site-sub-nav-item-padding-desktop;
+      }
     }
   }
 }

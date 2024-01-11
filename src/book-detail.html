@@ -12,14 +12,14 @@ permalink: 'books/{{ book.title | slugify }}/'
 <div id="book-details-wrapper" class="flush-with-header">
   <div class="container">
     <div id="book-details-titles">
-      <h2>{{book.title}}</h2>
-      <h3>{{book.subtitle}}</h3>
+      <h2 class="mb-0">{{book.title}}</h2>
+      <h3 class="mt-4 mb-0">{{book.subtitle}}</h3>
     </div>
 
     <div class="row">
-      <div class="col-12 col-lg-6">
+      <div class="col-12 col-lg-4">
         <div class="row">
-          <div class="col col-lg-12 order-lg-last" id="book-details-links">
+          <div class="col-6 col-lg-12 order-lg-last" id="book-details-links">
             {% if book.isCaregivers %}
             <div class="mt-4">
               See my other
@@ -27,11 +27,11 @@ permalink: 'books/{{ book.title | slugify }}/'
             </div>
             {% endif %}
 
-            <ul class="mt-4">
+            <ul class="list-unstyled mt-4 mb-0">
               {% for linkCategory in book.linkCategories %}
               <li>
-                <strong>{{linkCategory.type}}</strong>
-                <ul>
+                <h5 class="text-uppercase m-0">{{linkCategory.type}}</h5>
+                <ul class="list-unstyled ms-2 mb-2">
                   {% for link in linkCategory.links %}
                   <li>
                     <a href="{{link.url}}" target="_blank">{{link.name}}</a>
@@ -42,15 +42,24 @@ permalink: 'books/{{ book.title | slugify }}/'
               {% endfor %}
             </ul>
           </div>
-          <div class="col col-lg-12 order-lg-first">
-            <img src="{{ book.coverImageUrl | url }}" class="shadow" alt="{{book.title}}" />
+          <div class="col-6 col-lg-12 order-lg-first">
+            <img
+              src="{{ book.coverImageUrl | url }}"
+              class="w-100 shadow mt-4 mt-lg-0"
+              alt="{{book.title}}"
+            />
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-6">
-        <div>Description: {{book.description}}</div>
-
-        <div>Comments And Reviews: {{book.commentsAndReviews}}</div>
+      <div class="col-12 col-lg-8" id="book-details-content">
+        <nav
+          class="sub-navigation my-4 mt-lg-0 d-flex justify-content-center align-items-end text-uppercase"
+        >
+          <a href="#book-description" class="current">Description</a>
+          <a href="#book-comments-and-reviews">Comments And Reviews</a>
+        </nav>
+        <div id="book-description">{{book.description}}</div>
+        <div id="book-comments-and-reviews" class="d-none">{{book.commentsAndReviews}}</div>
       </div>
     </div>
   </div>
