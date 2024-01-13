@@ -4,11 +4,12 @@
   const $toggleSidebar = document.querySelector('#toggle-sidebar');
   const $sidebar = document.querySelector('#sidebar');
   const $closeSidebar = document.querySelector('#close-sidebar');
-  const $sidebarLinks = Array.from(document.querySelectorAll('#side-navigation a'));
+  const $sidebarLinks = Array.from(document.querySelectorAll('#sidebar a, #sidebar button'));
   const $sidebarBackdrop = document.querySelector('#sidebar-backdrop');
   const $bookDetailsSubnavItems = document.querySelectorAll(
     '#book-details-content .sub-navigation a',
   );
+  const pathname = location.pathname.toLowerCase().trim();
 
   //--------------------------------------------
   //SIDE NAVIGATION
@@ -62,12 +63,9 @@
   $sidebarBackdrop.addEventListener('touchstart', closeSidebar, false);
 
   //--------------------------------------------
-  //BOOK DETAILS
+  //BOOK DETAILS - anything under the /books/* but not the "books for caregivers" page
   //--------------------------------------------
-  if (
-    location.pathname.startsWith('/books/') &&
-    !location.pathname.includes('books-for-caregivers')
-  ) {
+  if (!pathname.includes('books-for-caregivers') && /^\/books\/.+$/i.test(pathname)) {
     const bookDetailsBgImgHeight = 300;
     const $bookDetailsTitles = document.querySelector('#book-details-titles');
     const $bookDetailsLinks = document.querySelector('#book-details-links');

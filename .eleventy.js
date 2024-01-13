@@ -34,7 +34,7 @@ module.exports = (eleventyConfig) => {
   });
 
   eleventyConfig.addTransform('htmlMin', async (content, outputPath) => {
-    if (isBuildMode && (outputPath.endsWith('.html') || outputPath.endsWith('.liquid'))) {
+    if (isBuildMode && (outputPath.endsWith('.html') || outputPath.endsWith('.njk'))) {
       return htmlMin.minify(content, {
         collapseWhitespace: true,
         removeComments: true,

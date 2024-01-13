@@ -1,15 +1,15 @@
 {% for nav in site.navigation %}
   {% if nav.name == 'Facebook' %}
-    <a href="{{nav.url | url}}" target="_blank" class="facebook-link{% if page.url == nav.url %} current{% endif %}" >
+    <a href="{{nav.url | url}}" target="_blank" class="facebook-link" aria-label="{{nav.name}}">
       <svg class="icon" role="img"><use xlink:href="#facebook-logo" /></svg>
     </a>
-  {% elsif nav.name == 'Books' %}
-    <a href="{{nav.url | url}}"{% if page.url contains nav.url %} class="current"{% endif %}>
-      {{nav.name}}
-    </a>
-  {% else %}
+  {% elsif nav.url == '/' %}
     <a href="{{nav.url | url}}"{% if page.url == nav.url %} class="current"{% endif %}>
     {{nav.name}}
+    </a>
+  {% else %}
+    <a href="{{nav.url | url}}"{% if page.url contains nav.url %} class="current"{% endif %}>
+      {{nav.name}}
     </a>
   {% endif %}
 {% endfor %}
