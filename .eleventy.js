@@ -2,6 +2,8 @@ const sass = require('sass');
 const path = require('node:path');
 const htmlMin = require('html-minifier');
 
+//TODO: Minify JS
+
 module.exports = (eleventyConfig) => {
   const isBuildMode = process.env.ELEVENTY_RUN_MODE === 'build';
 

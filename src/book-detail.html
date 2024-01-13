@@ -58,8 +58,10 @@ permalink: 'books/{{ book.title | slugify }}/'
           <a href="#book-description" class="current">Description</a>
           <a href="#book-comments-and-reviews">Comments And Reviews</a>
         </nav>
-        <div id="book-description">{{book.description}}</div>
-        <div id="book-comments-and-reviews" class="d-none">{{book.commentsAndReviews}}</div>
+        <div id="book-description" aria-label="Description">{{book.description}}</div>
+        <div id="book-comments-and-reviews" aria-label="Comments And Reviews" class="d-none">
+          {{book.commentsAndReviews}}
+        </div>
       </div>
     </div>
   </div>
