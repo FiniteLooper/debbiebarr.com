@@ -1,5 +1,6 @@
 (() => {
   const $body = document.querySelector('body');
+  const $header = document.querySelector('#header');
   const $toggleSidebar = document.querySelector('#toggle-sidebar');
   const $sidebar = document.querySelector('#sidebar');
   const $closeSidebar = document.querySelector('#close-sidebar');
@@ -64,7 +65,29 @@
   //BOOK DETAILS
   //--------------------------------------------
   if ($bookDetailsSubnavItems) {
-    //TODO: Position the #book-details-links on mobile
+    const bookDetailsBgImgHeight = 300;
+    const $bookDetailsTitles = document.querySelector('#book-details-titles');
+    const $bookDetailsLinks = document.querySelector('#book-details-links');
+    const positionBookLinks = () => {
+      const titlesRect = $bookDetailsTitles.getBoundingClientRect();
+      const linksMarginTop =
+        bookDetailsBgImgHeight - Math.round(titlesRect.bottom - $header.offsetHeight);
+
+      $bookDetailsLinks.style.marginTop = `${linksMarginTop}px`;
+    };
+
+    //Run on window resize
+    let resizeDebounce = null;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeDebounce);
+      resizeDebounce = setTimeout(positionBookLinks, 500);
+    });
+
+    //Run initially
+    positionBookLinks();
+
+    //Clicking on the book details sub-navigation will show the related sections
+    //The href of the link must match the ID of the element to show
     $bookDetailsSubnavItems.forEach((item) => {
       item.addEventListener('click', (ev) => {
         ev.preventDefault();
