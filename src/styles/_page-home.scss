@@ -6,7 +6,7 @@
   text-shadow: $site-text-shadow;
   position: relative;
   background-repeat: no-repeat;
-  background-image: url('../img/home-feature-bg-XS@1x.jpg');
+  background-image: url('../img/home/feature-bg-XS@1x.jpg');
 
   h2 {
     font-size: 2.5rem;
@@ -14,7 +14,7 @@
   }
 
   @include media-breakpoint-up(sm) {
-    background-image: url('../img/home-feature-bg-SM@1x.jpg');
+    background-image: url('../img/home/feature-bg-SM@1x.jpg');
     height: 430px;
     margin-bottom: 120px;
 
@@ -26,19 +26,19 @@
 
   @include media-breakpoint-up(md) {
     padding-top: $site-spacing-desktop;
-    background-image: url('../img/home-feature-bg-MD@1x.jpg');
+    background-image: url('../img/home/feature-bg-MD@1x.jpg');
     height: 460px;
     margin-bottom: 200px;
   }
 
   @include media-breakpoint-up(lg) {
-    background-image: url('../img/home-feature-bg-LG@1x.jpg');
+    background-image: url('../img/home/feature-bg-LG@1x.jpg');
     height: 600px;
     margin-bottom: $site-spacing-desktop;
   }
 
   @include media-breakpoint-up(xl) {
-    background-image: url('../img/home-feature-bg-XL@1x.jpg');
+    background-image: url('../img/home/feature-bg-XL@1x.jpg');
     height: 720px;
   }
 
@@ -49,26 +49,26 @@
 
   // High DPI Screens use higher-resolution images scaled back down
   @media only screen and (resolution >= 1.5dppx) {
-    background-image: url('../img/home-feature-bg-XS@2x.jpg');
+    background-image: url('../img/home/feature-bg-XS@2x.jpg');
     background-size: 575px 240px;
 
     @include media-breakpoint-up(sm) {
-      background-image: url('../img/home-feature-bg-SM@2x.jpg');
+      background-image: url('../img/home/feature-bg-SM@2x.jpg');
       background-size: 768px 430px;
     }
 
     @include media-breakpoint-up(md) {
-      background-image: url('../img/home-feature-bg-MD@2x.jpg');
+      background-image: url('../img/home/feature-bg-MD@2x.jpg');
       background-size: 992px 460px;
     }
 
     @include media-breakpoint-up(lg) {
-      background-image: url('../img/home-feature-bg-LG@2x.jpg');
+      background-image: url('../img/home/feature-bg-LG@2x.jpg');
       background-size: 1200px 600px;
     }
 
     @include media-breakpoint-up(xl) {
-      background-image: url('../img/home-feature-bg-XL@2x.jpg');
+      background-image: url('../img/home/feature-bg-XL@2x.jpg');
       background-size: 1920px 720px;
     }
   }
