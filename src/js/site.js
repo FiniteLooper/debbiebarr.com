@@ -65,7 +65,7 @@
   //--------------------------------------------
   //BOOK DETAILS - anything under the /books/* but not the "books for caregivers" page
   //--------------------------------------------
-  if (!pathname.includes('books-for-caregivers') && /^\/books\/.+$/i.test(pathname)) {
+  if (!pathname.includes('books-for-caregivers') && /\/books\/.+$/i.test(pathname)) {
     const bookDetailsBgImgHeight = 300;
     const $bookDetailsTitles = document.querySelector('#book-details-titles');
     const $bookDetailsLinks = document.querySelector('#book-details-links');
@@ -105,7 +105,7 @@
   //--------------------------------------------
   //CONTACT FORM
   //--------------------------------------------
-  if (pathname.startsWith('/contact')) {
+  if (pathname.includes('/contact')) {
     const $form = document.querySelector('#contact-form');
     const $formFields = $form.querySelectorAll('input,textarea');
     const $status = document.querySelector('#form-status');
