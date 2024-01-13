@@ -1,6 +1,6 @@
 @use 'variables' as *;
-@import 'layout';
-@import 'header-and-navigation';
-@import 'home';
-@import 'books';
-@import 'book-details';
+@import 'component-layout';
+@import 'component-header-and-navigation';
+@import 'page-home';
+@import 'page-books';
+@import 'page-book-details';

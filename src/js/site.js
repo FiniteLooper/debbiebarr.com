@@ -64,7 +64,10 @@
   //--------------------------------------------
   //BOOK DETAILS
   //--------------------------------------------
-  if ($bookDetailsSubnavItems) {
+  if (
+    location.pathname.startsWith('/books/') &&
+    !location.pathname.includes('books-for-caregivers')
+  ) {
     const bookDetailsBgImgHeight = 300;
     const $bookDetailsTitles = document.querySelector('#book-details-titles');
     const $bookDetailsLinks = document.querySelector('#book-details-links');
