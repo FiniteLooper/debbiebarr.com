@@ -6,6 +6,8 @@ html {
 }
 
 #main-content {
+  padding: $site-spacing 0;
+
   h2,
   h3,
   h4,
@@ -13,10 +15,6 @@ html {
   h6 {
     font-family: kepler-std-subhead, serif;
   }
-}
-
-#main-content {
-  padding: $site-spacing 0;
 
   @include media-breakpoint-up(md) {
     padding: $site-spacing-desktop 0;

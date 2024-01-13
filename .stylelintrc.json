@@ -8,6 +8,7 @@
   "rules": {
     "prettier/prettier": [true, { "endOfLine": "auto" }],
     "scss/no-global-function-names": null,
-    "scss/dollar-variable-colon-space-after": null
+    "scss/dollar-variable-colon-space-after": null,
+    "no-descending-specificity": null
   }
 }

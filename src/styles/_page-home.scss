@@ -37,13 +37,13 @@
     height: 720px;
   }
 
-  //Anything larger than the BG image we just center the BG
-  @media (min-width: 1920px) {
+  // Anything larger than the BG image we just center the BG
+  @media (width > 1920px) {
     background-position: center;
   }
 
-  //High DPI Screens use higher-resolution images scaled back down
-  @media only screen and (min-device-pixel-ratio: 2) {
+  // High DPI Screens use higher-resolution images scaled back down
+  @media only screen and (resolution >= 1.5dppx) {
     background-image: url('../img/home-feature-bg-XS@2x.jpg');
     background-size: 575px 240px;
 

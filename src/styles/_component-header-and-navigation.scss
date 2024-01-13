@@ -8,7 +8,6 @@
     font-family: $site-header-title-font-family;
     font-weight: $site-header-title-font-weight;
     font-size: $site-header-title-font-size;
-
     line-height: $site-header-title-line-height;
     margin: $site-header-title-margin;
     padding: $site-header-title-padding;
@@ -30,7 +29,7 @@
   }
 }
 
-//Shared navigation styles
+// Shared navigation styles
 #header-navigation a,
 #sidebar nav a,
 .sub-navigation a,
@@ -73,7 +72,7 @@
     padding: $site-header-nav-item-padding;
 
     &.facebook-link {
-      //Needed to align this icon site with the text
+      // Needed to align this icon site with the text
       padding-top: calc($site-header-nav-item-padding - 5px);
     }
   }
@@ -117,7 +116,7 @@
 }
 
 #close-sidebar {
-  margin-right: auto; //make it not take up the full width
+  margin-right: auto; // make it not take up the full width
   font-size: $site-sidebar-close-font-size;
 }
 
@@ -126,7 +125,7 @@
   transform: translateX(-100%);
   transition: $site-duration transform $site-ease-out-expo;
   z-index: $site-sidebar-z-index;
-  overflow: auto; //allow scrolling for short screens
+  overflow: auto; // allow scrolling for short screens
 
   .sidebar-open & {
     transform: translateX(0);
