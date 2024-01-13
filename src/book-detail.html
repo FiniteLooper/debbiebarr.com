@@ -2,6 +2,8 @@
 layout: layout.html
 eleventyComputed:
   title: '{{ book.title }}'
+  quoteText: '{{book.quoteText}}'
+  quoteSource: '{{book.quoteSource}}'
 pagination:
   data: books
   size: 1
@@ -45,7 +47,7 @@ permalink: 'books/{{ book.title | slugify }}/'
           <div class="col-6 col-lg-12 order-lg-first">
             <img
               src="{{ book.coverImageUrl | url }}"
-              class="w-100 shadow mt-4 mt-lg-0"
+              class="img-fluid shadow mt-4 mt-lg-0"
               alt="{{book.title}}"
             />
           </div>
@@ -62,6 +64,8 @@ permalink: 'books/{{ book.title | slugify }}/'
         <div id="book-comments-and-reviews" aria-label="Comments And Reviews" class="d-none">
           {{book.commentsAndReviews}}
         </div>
+
+        {% include "quote.njk" %}
       </div>
     </div>
   </div>

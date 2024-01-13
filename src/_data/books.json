@@ -6,6 +6,8 @@
     "isCaregivers": false,
     "coverImageUrl": "/img/book-covers/forgiveness.jpg",
     "detailHeaderImageUrl": "",
+    "quoteText": "Words which do not give the light of Christ increase the darkness.",
+    "quoteSource": "Mother Teresa",
     "description": "description here",
     "commentsAndReviews": "Comments and reviews here",
     "linkCategories": [
@@ -219,6 +221,8 @@
     "isCaregivers": false,
     "coverImageUrl": "/img/book-covers/strength-for-the-cancer-journey.png",
     "detailHeaderImageUrl": "",
+    "quoteText": "I shall keep my book on the table here, and read a little every morning as soon as I wake, for I know it will do me good, and help me through the day.",
+    "quoteSource": "Louisa May Alcott",
     "description": "description here",
     "commentsAndReviews": "Comments and reviews here",
     "linkCategories": [
@@ -361,6 +365,8 @@
     "isCaregivers": false,
     "coverImageUrl": "/img/book-covers/children-of-divorce.png",
     "detailHeaderImageUrl": "",
+    "quoteText": "Reading is an exercise in empathy; an exercise in walking in someone else’s shoes for a while.",
+    "quoteSource": "Malorie Blackman",
     "description": "description here",
     "commentsAndReviews": "Comments and reviews here",
     "linkCategories": [

@@ -10,11 +10,15 @@ title: Books
   <a href="{{'/books/books-for-caregivers' | url }}">Books For Caregivers</a>
 </nav>
 
-<div class="container" id="books-grid">
-  {% for book in books %}
+<div class="container">
+  <div id="books-grid">
+    {% for book in books %}
 
-  <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
-    <img src="{{ book.coverImageUrl | url }}" class="w-100 shadow" alt="{{book.title}}" />
-  </a>
-  {% endfor %}
+    <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
+      <img src="{{ book.coverImageUrl | url }}" class="img-fluid shadow" alt="{{book.title}}" />
+    </a>
+    {% endfor %}
+  </div>
+
+  {% include "quote.njk" %}
 </div>

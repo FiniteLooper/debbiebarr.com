@@ -1,0 +1,13 @@
+
+{%if quoteText.length >0 and quoteSource.length > 0 %}
+  <hr>
+
+  <figure>
+    <blockquote class="blockquote">
+      <p>{{quoteText}}</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite>{{quoteSource}}</cite>
+    </figcaption>
+  </figure>
+{% endif %}
