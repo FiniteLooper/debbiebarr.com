@@ -12,12 +12,13 @@ permalink: 'books/{{ book.title | slugify }}/'
 ---
 
 <div id="book-details-wrapper" class="flush-with-header">
-  <div class="container">
+  <div class="container position-relative">
     <div id="book-details-titles">
       <h2 class="mb-0">{{book.title}}</h2>
       <h3 class="mt-4 mb-0">{{book.subtitle}}</h3>
     </div>
-
+  </div>
+  <div class="container">
     <div class="row">
       <div class="col-12 col-lg-4">
         <div class="row">

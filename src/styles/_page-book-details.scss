@@ -9,10 +9,6 @@ $details-header-img-height: 300px;
   background-size: auto $details-header-img-height;
   background-image: linear-gradient(#027750, #0f9384);
 
-  > .container {
-    position: relative;
-  }
-
   @include media-breakpoint-up(md) {
     padding-top: $site-spacing-desktop;
   }
@@ -65,7 +61,7 @@ $details-header-img-height: 300px;
       ); // ~52px
 
       width: 100%;
-      position: fixed;
+      position: absolute;
       left: 0;
       background: $site-sub-nav-bg;
       z-index: -1;
