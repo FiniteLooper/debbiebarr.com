@@ -1,0 +1,72 @@
+{
+  "title": "A Season at Home",
+  "subtitle": "The Joy of Fully Sharing Your Child's Critical Years",
+  "isFeatured": false,
+  "isCaregivers": false,
+  "publishDate": "2023-02-01",
+  "coverImageUrl": "/img/book-covers/a-season-at-home.png",
+  "detailHeaderImageUrl": "",
+  "description": "description here",
+  "commentsAndReviews": "Comments and reviews here",
+  "linkCategories": [
+    {
+      "type": "Paperback",
+      "links": [
+        {
+          "name": "Amazon",
+          "url": "#"
+        },
+        {
+          "name": "Barnes & Noble",
+          "url": "#"
+        },
+        {
+          "name": "Books-A-Million",
+          "url": "#"
+        },
+        {
+          "name": "Moody Publishing",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "Ebook",
+      "links": [
+        {
+          "name": "Kindle",
+          "url": "#"
+        },
+        {
+          "name": "Nook",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "AudioBook",
+      "links": [
+        {
+          "name": "Audible",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

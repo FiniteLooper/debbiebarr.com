@@ -1,0 +1,74 @@
+{
+  "title": "Forgiveness",
+  "subtitle": "The Choice that Sets You Free",
+  "isFeatured": true,
+  "isCaregivers": false,
+  "publishDate": "2023-01-01",
+  "coverImageUrl": "/img/book-covers/forgiveness.jpg",
+  "detailHeaderImageUrl": "",
+  "quoteText": "Words which do not give the light of Christ increase the darkness.",
+  "quoteSource": "Mother Teresa",
+  "description": "description here",
+  "commentsAndReviews": "Comments and reviews here",
+  "linkCategories": [
+    {
+      "type": "Paperback",
+      "links": [
+        {
+          "name": "Amazon",
+          "url": "#"
+        },
+        {
+          "name": "Barnes & Noble",
+          "url": "#"
+        },
+        {
+          "name": "Books-A-Million",
+          "url": "#"
+        },
+        {
+          "name": "Moody Publishing",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "Ebook",
+      "links": [
+        {
+          "name": "Kindle",
+          "url": "#"
+        },
+        {
+          "name": "Nook",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "AudioBook",
+      "links": [
+        {
+          "name": "Audible",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Children of Divorce",
+  "subtitle": "Helping Kids When Their Parents Are Apart",
+  "isFeatured": false,
+  "isCaregivers": false,
+  "publishDate": "2023-02-01",
+  "coverImageUrl": "/img/book-covers/children-of-divorce.png",
+  "detailHeaderImageUrl": "",
+  "quoteText": "Reading is an exercise in empathy; an exercise in walking in someone else's shoes for a while.",
+  "quoteSource": "Malorie Blackman",
+  "description": "description here",
+  "commentsAndReviews": "Comments and reviews here",
+  "linkCategories": [
+    {
+      "type": "Paperback",
+      "links": [
+        {
+          "name": "Amazon",
+          "url": "#"
+        },
+        {
+          "name": "Barnes & Noble",
+          "url": "#"
+        },
+        {
+          "name": "Books-A-Million",
+          "url": "#"
+        },
+        {
+          "name": "Moody Publishing",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "Ebook",
+      "links": [
+        {
+          "name": "Kindle",
+          "url": "#"
+        },
+        {
+          "name": "Nook",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "AudioBook",
+      "links": [
+        {
+          "name": "Audible",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

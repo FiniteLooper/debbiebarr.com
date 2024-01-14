@@ -1,0 +1,72 @@
+{
+  "title": "When Your Son or Daughter is Going Through A Divorce",
+  "subtitle": "How to Be a Positive Influence During a Difficult Experience",
+  "isFeatured": false,
+  "isCaregivers": false,
+  "publishDate": "2023-02-01",
+  "coverImageUrl": "/img/book-covers/when-your-son-or-daughter-is-going-through-a-divorce.png",
+  "detailHeaderImageUrl": "",
+  "description": "description here",
+  "commentsAndReviews": "Comments and reviews here",
+  "linkCategories": [
+    {
+      "type": "Paperback",
+      "links": [
+        {
+          "name": "Amazon",
+          "url": "#"
+        },
+        {
+          "name": "Barnes & Noble",
+          "url": "#"
+        },
+        {
+          "name": "Books-A-Million",
+          "url": "#"
+        },
+        {
+          "name": "Moody Publishing",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "Ebook",
+      "links": [
+        {
+          "name": "Kindle",
+          "url": "#"
+        },
+        {
+          "name": "Nook",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "AudioBook",
+      "links": [
+        {
+          "name": "Audible",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

@@ -15,9 +15,12 @@ quoteSource: Alain de Botton
   >
 </nav>
 
+{% set booksArr = [] %} {% for k, book in books %} {% if book.isCaregivers %}{%
+set booksArr = (booksArr.push(book), booksArr) %} {% endif %}{% endfor %}
+
 <div class="container">
   <div id="books-grid">
-    {% for book in books %} {% if book.isCaregivers %}
+    {% for book in booksArr | sort(false, false, "publishDate") %}
     <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
       <img
         src="{{ book.coverImageUrl | url }}"
@@ -25,7 +28,7 @@ quoteSource: Alain de Botton
         alt="{{book.title}}"
       />
     </a>
-    {% endif %} {% endfor %}
+    {% endfor %}
   </div>
 
   {% include "quote.njk" %}

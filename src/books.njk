@@ -11,9 +11,11 @@ title: Books
 </nav>
 
 <div class="container">
-  <div id="books-grid">
-    {% for book in books %}
+  {% set booksArr = [] %} {% for k, book in books %} {% set booksArr =
+  (booksArr.push(book), booksArr) %} {% endfor %}
 
+  <div id="books-grid">
+    {% for book in booksArr | sort(false, false, "publishDate") %}
     <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
       <img
         src="{{ book.coverImageUrl | url }}"

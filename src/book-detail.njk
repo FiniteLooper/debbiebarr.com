@@ -1,14 +1,15 @@
 ---
 layout: layout.njk
 eleventyComputed:
-  title: '{{ book.title }}'
-  quoteText: '{{book.quoteText}}'
-  quoteSource: '{{book.quoteSource}}'
+  title: "{{ book.title }}"
+  quoteText: "{{book.quoteText}}"
+  quoteSource: "{{book.quoteSource}}"
 pagination:
   data: books
-  size: 1
+  resolve: values
   alias: book
-permalink: 'books/{{ book.title | slugify }}/'
+  size: 1
+permalink: "books/{{ book.title | slugify }}/"
 ---
 
 <div id="book-details-wrapper" class="flush-with-header">
@@ -26,7 +27,9 @@ permalink: 'books/{{ book.title | slugify }}/'
             {% if book.isCaregivers %}
             <div class="mt-4">
               See my other
-              <a href="{{ '/books/books-for-caregivers' | url}}">books for caregivers</a>
+              <a href="{{ '/books/books-for-caregivers' | url}}"
+                >books for caregivers</a
+              >
             </div>
             {% endif %}
 
@@ -61,8 +64,14 @@ permalink: 'books/{{ book.title | slugify }}/'
           <a href="#book-description" class="current">Description</a>
           <a href="#book-comments-and-reviews">Comments And Reviews</a>
         </nav>
-        <div id="book-description" aria-label="Description">{{book.description}}</div>
-        <div id="book-comments-and-reviews" aria-label="Comments And Reviews" class="d-none">
+        <div id="book-description" aria-label="Description">
+          {{book.description}}
+        </div>
+        <div
+          id="book-comments-and-reviews"
+          aria-label="Comments And Reviews"
+          class="d-none"
+        >
           {{book.commentsAndReviews}}
         </div>
 

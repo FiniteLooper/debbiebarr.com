@@ -1,0 +1,74 @@
+{
+  "title": "Strength For The Cancer Journey",
+  "subtitle": "30 Days of Inspiration, Encouragement, and Comfort",
+  "isFeatured": true,
+  "isCaregivers": false,
+  "publishDate": "2023-02-01",
+  "coverImageUrl": "/img/book-covers/strength-for-the-cancer-journey.png",
+  "detailHeaderImageUrl": "",
+  "quoteText": "I shall keep my book on the table here, and read a little every morning as soon as I wake, for I know it will do me good, and help me through the day.",
+  "quoteSource": "Louisa May Alcott",
+  "description": "description here",
+  "commentsAndReviews": "Comments and reviews here",
+  "linkCategories": [
+    {
+      "type": "Paperback",
+      "links": [
+        {
+          "name": "Amazon",
+          "url": "#"
+        },
+        {
+          "name": "Barnes & Noble",
+          "url": "#"
+        },
+        {
+          "name": "Books-A-Million",
+          "url": "#"
+        },
+        {
+          "name": "Moody Publishing",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "Ebook",
+      "links": [
+        {
+          "name": "Kindle",
+          "url": "#"
+        },
+        {
+          "name": "Nook",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "AudioBook",
+      "links": [
+        {
+          "name": "Audible",
+          "url": "#"
+        },
+        {
+          "name": "Google",
+          "url": "#"
+        },
+        {
+          "name": "Apple",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}
