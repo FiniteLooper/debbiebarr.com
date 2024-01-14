@@ -6,6 +6,8 @@
     "esbenp.prettier-vscode",
     "streetsidesoftware.code-spell-checker",
     "stylelint.vscode-stylelint",
-    "ronnidc.nunjucks"
+    "eseom.nunjucks-template",
+    "ronnidc.nunjucks",
+    "ginfuru.better-nunjucks"
   ]
 }

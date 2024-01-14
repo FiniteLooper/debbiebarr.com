@@ -11,7 +11,11 @@
   },
   "explorer.fileNesting.expand": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.suggest.html5": true,
+  "emmet.includeLanguages": {
+    "njk": "html"
+  },
   "[nunjucks]": {
-    "editor.defaultFormatter": "guapibai.nunjucks-prettier"
+    "editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter"
   }
 }

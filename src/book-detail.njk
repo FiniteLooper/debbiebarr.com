@@ -15,8 +15,8 @@ permalink: "books/{{ book.title | slugify }}/"
 <div id="book-details-wrapper" class="flush-with-header">
   <div class="container position-relative">
     <div id="book-details-titles">
-      <h2 class="mb-0">{{book.title}}</h2>
-      <h3 class="mt-4 mb-0">{{book.subtitle}}</h3>
+      <h2 class="mb-0">{{ book.title }}</h2>
+      <h3 class="mt-4 mb-0">{{ book.subtitle }}</h3>
     </div>
   </div>
   <div class="container">
@@ -25,26 +25,25 @@ permalink: "books/{{ book.title | slugify }}/"
         <div class="row">
           <div class="col-6 col-lg-12 order-lg-last" id="book-details-links">
             {% if book.isCaregivers %}
-            <div class="mt-4">
+              <div class="mt-4">
               See my other
-              <a href="{{ '/books/books-for-caregivers' | url}}"
+              <a href="{{ '/books/books-for-caregivers' | url }}"
                 >books for caregivers</a
               >
-            </div>
+              </div>
             {% endif %}
-
             <ul class="list-unstyled mt-4 mb-0">
               {% for linkCategory in book.linkCategories %}
-              <li>
-                <h5 class="text-uppercase m-0">{{linkCategory.type}}</h5>
-                <ul class="list-unstyled ms-2 mb-2">
-                  {% for link in linkCategory.links %}
-                  <li>
-                    <a href="{{link.url}}" target="_blank">{{link.name}}</a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </li>
+                <li>
+                  <h5 class="text-uppercase m-0">{{ linkCategory.type }}</h5>
+                  <ul class="list-unstyled ms-2 mb-2">
+                    {% for link in linkCategory.links %}
+                      <li>
+                        <a href="{{ link.url }}" target="_blank">{{ link.name }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
               {% endfor %}
             </ul>
           </div>
@@ -52,8 +51,8 @@ permalink: "books/{{ book.title | slugify }}/"
             <img
               src="{{ book.coverImageUrl | url }}"
               class="img-fluid shadow mt-4 mt-lg-0"
-              alt="{{book.title}}"
-            />
+              alt="{{ book.title }}"
+/>
           </div>
         </div>
       </div>
@@ -65,16 +64,15 @@ permalink: "books/{{ book.title | slugify }}/"
           <a href="#book-comments-and-reviews">Comments And Reviews</a>
         </nav>
         <div id="book-description" aria-label="Description">
-          {{book.description}}
+          {{ book.description }}
         </div>
         <div
           id="book-comments-and-reviews"
           aria-label="Comments And Reviews"
           class="d-none"
         >
-          {{book.commentsAndReviews}}
+          {{ book.commentsAndReviews }}
         </div>
-
         {% include "quote.njk" %}
       </div>
     </div>

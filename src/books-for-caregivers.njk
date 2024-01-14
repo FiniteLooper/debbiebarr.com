@@ -6,30 +6,24 @@ quoteText: Most of what makes a book "good" is that we are reading it at the rig
 quoteSource: Alain de Botton
 ---
 
-<nav
-  class="sub-navigation header-sub-navigation flush-with-header content-spacer d-flex justify-content-center align-items-end text-uppercase"
->
-  <a href="{{'/books' | url }}">All Books</a>
-  <a href="{{'/books/books-for-caregivers' | url }}" class="current"
-    >Books For Caregivers</a
-  >
+<nav class="sub-navigation header-sub-navigation flush-with-header content-spacer d-flex justify-content-center
+    align-items-end text-uppercase">
+  <a href="{{ '/books' | url }}">All Books</a>
+  <a href="{{ '/books/books-for-caregivers' | url }}" class="current">Books For Caregivers</a>
 </nav>
-
-{% set booksArr = [] %} {% for k, book in books %} {% if book.isCaregivers %}{%
-set booksArr = (booksArr.push(book), booksArr) %} {% endif %}{% endfor %}
-
+{% set booksArr = [] %}
+{% for k, book in books %}
+  {% if book.isCaregivers %}
+    {% set booksArr = (booksArr.push(book), booksArr) %}
+  {% endif %}
+{% endfor %}
 <div class="container">
   <div id="books-grid">
     {% for book in booksArr | sort(false, false, "publishDate") %}
-    <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
-      <img
-        src="{{ book.coverImageUrl | url }}"
-        class="img-fluid shadow"
-        alt="{{book.title}}"
-      />
-    </a>
+      <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
+        <img src="{{ book.coverImageUrl | url }}" class="img-fluid shadow" alt="{{ book.title }}"/>
+      </a>
     {% endfor %}
   </div>
-
   {% include "quote.njk" %}
 </div>

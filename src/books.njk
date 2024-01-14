@@ -3,28 +3,24 @@ layout: layout.njk
 title: Books
 ---
 
-<nav
-  class="sub-navigation header-sub-navigation flush-with-header content-spacer d-flex justify-content-center align-items-end text-uppercase"
->
-  <a href="{{'/books' | url }}" class="current">All Books</a>
-  <a href="{{'/books/books-for-caregivers' | url }}">Books For Caregivers</a>
+<nav class="sub-navigation header-sub-navigation flush-with-header content-spacer d-flex justify-content-center
+    align-items-end text-uppercase">
+  <a href="{{ '/books' | url }}" class="current">All Books</a>
+  <a href="{{ '/books/books-for-caregivers' | url }}">Books For Caregivers</a>
 </nav>
-
 <div class="container">
-  {% set booksArr = [] %} {% for k, book in books %} {% set booksArr =
-  (booksArr.push(book), booksArr) %} {% endfor %}
+
+  {% set booksArr = [] %}
+  {% for k, book in books %}
+    {% set booksArr = (booksArr.push(book), booksArr) %}
+  {% endfor %}
 
   <div id="books-grid">
     {% for book in booksArr | sort(false, false, "publishDate") %}
-    <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
-      <img
-        src="{{ book.coverImageUrl | url }}"
-        class="img-fluid shadow"
-        alt="{{book.title}}"
-      />
-    </a>
+      <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
+        <img src="{{ book.coverImageUrl | url }}" class="img-fluid shadow" alt="{{ book.title }}"/>
+      </a>
     {% endfor %}
   </div>
-
   {% include "quote.njk" %}
 </div>
