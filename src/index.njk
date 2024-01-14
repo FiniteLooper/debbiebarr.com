@@ -7,6 +7,13 @@ quoteText: A writer only begins a book. A reader finishes it.
 quoteSource: Samuel Johnson
 ---
 
+{% set booksArr = [] %}
+{% for k, book in books %}
+  {% if book.isFeatured %}
+    {% set booksArr = (booksArr.push(book), booksArr) %}
+  {% endif %}
+{% endfor %}
+
 <div id="home-feature" class="flush-with-header">
   <div class="container">
     <div class="row justify-content-end">
@@ -16,7 +23,7 @@ quoteSource: Samuel Johnson
       </div>
       <div class="col-12 col-lg-4 col-xl-5">
         <div id="home-feature-books">
-          {% for book in books %}
+          {% for book in booksArr %}
             <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
               <img
               src="{{ book.coverImageUrl | url }}"
