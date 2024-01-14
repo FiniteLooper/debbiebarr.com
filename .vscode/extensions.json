@@ -5,6 +5,7 @@
     "christian-kohler.path-intellisense",
     "esbenp.prettier-vscode",
     "streetsidesoftware.code-spell-checker",
-    "stylelint.vscode-stylelint"
+    "stylelint.vscode-stylelint",
+    "ronnidc.nunjucks"
   ]
 }

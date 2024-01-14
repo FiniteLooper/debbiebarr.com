@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layout.njk
 title: Books
 ---
 
@@ -15,7 +15,11 @@ title: Books
     {% for book in books %}
 
     <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
-      <img src="{{ book.coverImageUrl | url }}" class="img-fluid shadow" alt="{{book.title}}" />
+      <img
+        src="{{ book.coverImageUrl | url }}"
+        class="img-fluid shadow"
+        alt="{{book.title}}"
+      />
     </a>
     {% endfor %}
   </div>

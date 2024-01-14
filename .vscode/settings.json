@@ -10,5 +10,8 @@
     "package.json": "package-lock.json"
   },
   "explorer.fileNesting.expand": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[nunjucks]": {
+    "editor.defaultFormatter": "guapibai.nunjucks-prettier"
+  }
 }

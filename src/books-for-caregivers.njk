@@ -1,7 +1,7 @@
 ---
-layout: layout.html
+layout: layout.njk
 title: Books For Caregivers
-permalink: 'books/books-for-caregivers/'
+permalink: "books/books-for-caregivers/"
 quoteText: Most of what makes a book "good" is that we are reading it at the right moment for us.
 quoteSource: Alain de Botton
 ---
@@ -10,14 +10,20 @@ quoteSource: Alain de Botton
   class="sub-navigation header-sub-navigation flush-with-header content-spacer d-flex justify-content-center align-items-end text-uppercase"
 >
   <a href="{{'/books' | url }}">All Books</a>
-  <a href="{{'/books/books-for-caregivers' | url }}" class="current">Books For Caregivers</a>
+  <a href="{{'/books/books-for-caregivers' | url }}" class="current"
+    >Books For Caregivers</a
+  >
 </nav>
 
 <div class="container">
   <div id="books-grid">
     {% for book in books %} {% if book.isCaregivers %}
     <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
-      <img src="{{ book.coverImageUrl | url }}" class="img-fluid shadow" alt="{{book.title}}" />
+      <img
+        src="{{ book.coverImageUrl | url }}"
+        class="img-fluid shadow"
+        alt="{{book.title}}"
+      />
     </a>
     {% endif %} {% endfor %}
   </div>
