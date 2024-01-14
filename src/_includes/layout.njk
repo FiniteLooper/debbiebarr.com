@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#23211E" />
-    <meta name="author" content="{{site.name}}" />
-    <meta name="description" content="{{site.description}}" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="theme-color" content="#23211E"/>
+    <meta name="author" content="{{site.name}}"/>
+    <meta name="description" content="{{site.description}}"/>
     <link
       rel="icon"
       type="image/x-icon"
-      href="{{ '/img/favicon/favicon.ico' | url }}"
-    />
+      href="{{ '/img/favicon/favicon.ico' | url }}"/>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="{{ '/img/favicon/apple-touch-icon.png' | url }}"
-    />
+      href="{{ '/img/favicon/apple-touch-icon.png' | url }}"/>
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="{{ '/img/favicon/favicon-32x32.png' | url }}"
-    />
+      href="{{ '/img/favicon/favicon-32x32.png' | url }}"/>
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="{{ '/img/favicon/favicon-16x16.png' | url }}"
-    />
-    <link rel="manifest" href="/img/favicon/site.webmanifest" />
-    <title>{{ site.name }}{% if title %} | {{ title }} {% endif %}</title>
-    <link rel="stylesheet" href="https://use.typekit.net/ukz7kdm.css" />
-
-    <link rel="stylesheet" href="{{ '/styles/bootstrap.css' | url }}" />
-    <link rel="stylesheet" href="{{ '/styles/site.css' | url }}" />
+      href="{{ '/img/favicon/favicon-16x16.png' | url }}"/>
+    <link rel="manifest" href="/img/favicon/site.webmanifest"/>
+    <title>{{ site.name }}
+      {% if title %} | {{ title }}
+      {% endif %}
+    </title>
+    <link rel="stylesheet" href="https://use.typekit.net/ukz7kdm.css"/>
+    <link rel="stylesheet" href="{{ '/styles/bootstrap.css' | url }}"/>
+    <link rel="stylesheet" href="{{ '/styles/site.css' | url }}"/>
   </head>
   <body class="d-flex flex-column">
     <header id="header">
@@ -59,10 +57,8 @@
       </nav>
     </header>
 
-    <aside
-      id="sidebar"
-      class="d-md-none position-fixed top-0 bottom-0 start-0 d-flex flex-column"
-    >
+    <aside id="sidebar"
+           class="d-md-none position-fixed top-0 bottom-0 start-0 d-flex flex-column">
       <button type="button" id="close-sidebar" aria-label="Close Navigation">
         &#x2715;
       </button>
@@ -71,19 +67,23 @@
       </nav>
 
       <footer class="mt-auto text-center">
-        site by
-        <a href="{{site.siteByUrl}}" target="_blank">{{site.siteByName}}</a>
+        <small>
+          site by
+          <a href="{{site.siteByUrl}}" target="_blank">{{site.siteByName}}</a>
+        </small>
       </footer>
     </aside>
     <div id="sidebar-backdrop" class="d-md-none"></div>
 
     <main id="main-content" class="flex-fill" role="main">
-      {{ content|safe }}
+      {{ content | safe }}
     </main>
 
     <footer id="main-footer" class="container text-center d-none d-md-block">
-      site by
-      <a href="{{site.siteByUrl}}" target="_blank">{{site.siteByName}}</a>
+      <small>
+        site by
+        <a href="{{site.siteByUrl}}" target="_blank">{{site.siteByName}}</a>
+      </small>
     </footer>
 
     <svg xmlns="http://www.w3.org/2000/svg" class="visually-hidden">
@@ -96,7 +96,7 @@
       >
         <path
           d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
-        />
+/>
       </symbol>
     </svg>
 
