@@ -23,7 +23,7 @@ quoteSource: Samuel Johnson
       </div>
       <div class="col-12 col-lg-4 col-xl-5">
         <div id="home-feature-books">
-          {% for book in booksArr %}
+          {% for book in booksArr | sort(false, false, "publishDate") | reverse %}
             <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
               <img
               src="{{ book.coverImageUrl | url }}"
