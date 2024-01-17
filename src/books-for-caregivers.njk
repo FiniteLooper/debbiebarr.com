@@ -8,45 +8,73 @@ quoteSource: Alain de Botton
 
 <nav class="sub-navigation header-sub-navigation flush-with-header content-spacer d-flex justify-content-center
     align-items-end text-uppercase">
-  <a href="{{ '/books' | url }}">All Books</a>
-  <a href="{{ '/books/books-for-caregivers' | url }}" class="current">Books For Caregivers</a>
+    <a href="{{ '/books' | url }}">All Books</a>
+    <a href="{{ '/books/books-for-caregivers' | url }}" class="current">Books For Caregivers</a>
 </nav>
+
 {% set booksArr = [] %}
 {% for k, book in books %}
-  {% if book.isCaregivers %}
-    {% set booksArr = (booksArr.push(book), booksArr) %}
-  {% endif %}
+    {% if book.isCaregivers %}
+        {% set booksArr = (booksArr.push(book), booksArr) %}
+    {% endif %}
 {% endfor %}
+
 <div class="container">
 
-  <div id="books-grid">
-    {% for book in booksArr | sort(false, false, "publishDate") | reverse %}
-      <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
-        <img src="{{ book.coverImageUrl | url }}" class="img-fluid shadow" alt="{{ book.title }}"/>
+    <div id="books-grid">
+        {% for book in booksArr | sort(false, false, "publishDate") | reverse %}
+            <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
+                <img src="{{ book.coverImageUrl | url }}" class="img-fluid shadow" alt="{{ book.title }}"/>
+            </a>
+        {% endfor %}
+    </div>
+
+    <hr class="my-4">
+
+    <figure class="figure float-start me-4">
+      <a href=" https://www.moodypublishers.com/caregivers-book-bundle/" target="_blank">
+        <img src="{{ '/img/dementia-caregiver-book-bundle.jpg' | url }}" class="img-fluid img-thumbnail" alt="Dementia Caregiver Book Bundle"/>
+        <figcaption class="figure-caption text-end">
+          The Dementia Caregiver Book Bundle from Moody
+        </figcaption>
       </a>
-    {% endfor %}
-  </div>
+    </figure>
 
-  <h2 class="mb-2">Caregiving: Taking Care of Yourself While Caring for Someone Else</h2>
-
-  <p>
-    Caregiving is never just about the person needing care. No matter who a person is caring for, or why, or for how long, the caregiving journey is always also about the caregiver. Yet, while most caregivers do a spectacular job of taking care of their loved one, far too many do a terrible job of taking care of themselves.
-    </p>
-  <p>
-    Well-meaning caregivers sometimes sacrifice their own physical, emotional, social, and other needs so they can pour all their energy and devote all their time to the person in their care. While that sounds noble and loving, it&apos;s really not. It actually puts the cared-for person at risk. This book challenges caregivers to rethink the importance of self-care, telling them:
-  </p>
-
-  <blockquote class="blockquote ps-4">
     <p>
-      Here&apos;s the truth. If you ignore your own needs for restful sleep, healthy food, exercise, medical care, spiritual nurture, and &#x201C;time off,&#x201D; sooner or later, you will be unable to go on meeting the needs of the person in your care. Unless you make caring for yourself a top priority, you may burn out or bail out. And where would that leave the person you&apos;re caring for?
+      Ten years ago, I began a job that would have a profound impact on my life. As the new coordinator of a memory counseling program at a local
+      medical center, I soon developed relationships with many caregivers—usually a husband or wife caring for their spouse or an adult child caring
+      for a parent with some type of dementia. As I interacted with these family caregivers one-on-one in the office, on the phone, and in support
+      groups, I developed great empathy and a profound respect for those engaged in the labor of love we call caregiving.
     </p>
-    <p>
-      Self-care is what will enable you to endure the challenges of long-haul caregiving. It keeps your emotional, spiritual, and physical reserves from running out. It equips you to be the patient, loving, and truly caring caregiver you want to be.
-    </p>
-  </blockquote>
-  <p>
-    The key message of the book is this: caregiver self-care isn&apos;t selfish; it&apos;s an investment that will be repaid in a better quality of life for the caregiver and a better quality of care for their loved one. Caregiver self-care isn&apos;t just smart—it&apos;s necessary!
-  </p>
 
-  {% include "quote.njk" %}
+    <p>
+      Caregiving is a journey of compassion, walking alongside someone coping with illness or disability or the effects of aging. It is one of the
+      most difficult—and most important—jobs in the world. And that's true whether the cared-for person is a child, or an adult with dementia, or a
+      long-term illness such as Parkinson's disease, or is recovering from an accident or a surgical procedure.
+    </p>
+
+    <p>
+      Most of the time, caregiving is an unexpected journey. Few family caregivers ever foresee the day when a tragic accident, a mental or physical
+      illness, or dementia would put them in a caregiving role. And while everyone understands that health often declines with age, few of us are
+      fully prepared to meet the challenges of caring for an elder loved one. So, whether the caregiving journey is short term or for the long haul,
+      more often than not, it's an unplanned journey into unknown territory. And for so very many, it's not an easy journey.
+    </p>
+
+    <p>
+      Caregiving can be exhausting! It's not unusual for caregivers to feel overwhelmed, stressed out, or to even get sick themselves while caring for
+      someone else. For some, it's also a lonely journey because they don't have enough support or help. Without adequate support and proper self-care,
+      caregiving can take an awful toll on body, mind, and spirit.
+    </p>
+
+    <p>
+      But here's the great news—no caregiving experience has to be like that! When caregiving tasks are shared and caregivers understand how to take care
+      of themselves as well as their family member, the whole experience is much brighter for everyone.
+    </p>
+
+    <p>
+      If you are a caregiver, these three books for you! My hope is that they will help you create a "best case scenario" caregiving experience for both you
+      and the person in your care.
+    </p>
+
+    {% include "quote.njk" %}
 </div>

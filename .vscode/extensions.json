@@ -8,6 +8,7 @@
     "stylelint.vscode-stylelint",
     "eseom.nunjucks-template",
     "ronnidc.nunjucks",
-    "ginfuru.better-nunjucks"
+    "ginfuru.better-nunjucks",
+    "okitavera.vscode-nunjucks-formatter"
   ]
 }
