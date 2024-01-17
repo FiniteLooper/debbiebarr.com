@@ -8,8 +8,21 @@
   "detailHeaderImageUrl": "",
   "quoteText": "Words which do not give the light of Christ increase the darkness.",
   "quoteSource": "Mother Teresa",
-  "description": "description here",
-  "commentsAndReviews": "Comments and reviews here",
+  "description": [
+    "Forgiving others is sometimes easy—you stepped on my toe. No big deal. But if you have been deliberately insulted, betrayed, or violated in some painful, life-altering way, forgiveness can be very, very difficult. The more outrageous the offense, the harder it can be to forgive: ",
+    "How can you forgive a painful offense you cannot stop thinking about? ",
+    "Should you forgive someone who doesn't ask for your forgiveness? ",
+    "Why forgive someone who doesn't even care that you were hurt by what they did? ",
+    "This book helps answer those questions by delving into the reasons why God wants us to forgive.",
+    "Many people don't realize that forgiveness is for us— for our peace of mind and heart, for our happiness, and for our spiritual and emotional freedom from the toxic effects of resentment and unforgiveness. This is where the book title comes from: forgiveness is the choice that sets you free. Releasing others through forgiveness actually benefits the forgiver in amazing ways. Even more amazing is the mysterious fact that God can bring something good out of even our most painful offenses. ",
+    "I learned so much in the process of researching and writing this book. One of my biggest personal takeaways is the fact that there are two kinds of forgiveness: transactional forgiveness and unilateral forgiveness. Transactional forgiveness is the kind of forgiveness that reconciles relationships. It's interpersonal; it involves both the offended person and the offending person. The other kind of forgiveness, unilateral forgiveness, is intrapersonal. It takes place entirely within the mind and heart of the offended person. The offending person is not even involved. Surprised? I sure was! In this book, you may just discover, as I did, that there is more to forgiveness than you thought!"
+  ],
+  "commentsAndReviews": [
+    {
+      "text": "Comment here",
+      "source": "source here"
+    }
+  ],
   "linkCategories": [
     {
       "type": "Paperback",

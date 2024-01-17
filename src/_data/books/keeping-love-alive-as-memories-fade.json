@@ -8,8 +8,13 @@
   "detailHeaderImageUrl": "",
   "quoteText": "There is no substitute for the love of an Alzheimer's caregiver.",
   "quoteSource": "Bob DeMarco",
-  "description": "description here",
-  "commentsAndReviews": "Comments and reviews here",
+  "description": ["description here"],
+  "commentsAndReviews": [
+    {
+      "text": "Comment here",
+      "source": "source here"
+    }
+  ],
   "linkCategories": [
     {
       "type": "Paperback",

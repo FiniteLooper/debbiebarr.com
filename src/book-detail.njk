@@ -64,17 +64,28 @@ permalink: "books/{{ book.title | slugify }}/"
           <a href="#book-comments-and-reviews">Comments And Reviews</a>
         </nav>
         <div id="book-description" aria-label="Description">
-          {{ book.description }}
+          {% for paragraph in book.description %}
+            <p>{{ paragraph | safe }}</p>
+          {% endfor %}
         </div>
         <div
           id="book-comments-and-reviews"
           aria-label="Comments And Reviews"
           class="d-none"
         >
-          {{ book.commentsAndReviews }}
+          {% for obj in book.commentsAndReviews %}
+            <figure>
+              <blockquote class="blockquote fs-6">
+                <p>{{obj.text | safe}}</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                <cite title="Source Title">{{obj.source}}</cite>
+              </figcaption>
+            </figure>
+          {% endfor %}
         </div>
-        {% include "quote.njk" %}
       </div>
     </div>
+    {% include "quote.njk" %}
   </div>
 </div>

@@ -8,8 +8,13 @@
   "detailHeaderImageUrl": "",
   "quoteText": "",
   "quoteSource": "",
-  "description": "description here",
-  "commentsAndReviews": "Comments and reviews here",
+  "description": ["description here"],
+  "commentsAndReviews": [
+    {
+      "text": "Comment here",
+      "source": "source here"
+    }
+  ],
   "linkCategories": [
     {
       "type": "Paperback",
