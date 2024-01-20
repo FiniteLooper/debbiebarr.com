@@ -8,16 +8,16 @@
   "detailHeaderImageUrl": "",
   "quoteText": "",
   "quoteSource": "",
-  "description": [
-    "I was honored to collaborate with psychologist Tom Whiteman on this book for the parents of adult children going through divorce. The need for this book was (and still is) great because, as we wrote in the introduction, \"<em>When a son or daughter faces the crisis of divorce, the parents often experience a crisis of their own. They are hit with a flood of emotions: anger, confusion, sorrow, shame, guilt, sadness, and anxiety. There are more questions than answers: Why did this happen in our family? How can I help my child through this crisis? What will happen to my grandchildren? How should I treat my son-in-law or daughter-in-law? Where is God in this mess?</em>\"",
-    "Our goals were to help answer some of those questions, encourage and comfort parents, and help them be a positive influence in the lives of their children and grandchildren in the years ahead. Though this book never set any sales records, and is now only available through used bookstores, I'm blessed to have collaborated on this helpful little resource."
-  ],
-  "commentsAndReviews": [
+  "contentSections": [
     {
-      "text": "Comment here",
-      "source": "source here"
+      "name": "Description",
+      "lines": [
+        "<p>I was honored to collaborate with psychologist Tom Whiteman on this book for the parents of adult children going through divorce. The need for this book was (and still is) great because, as we wrote in the introduction, &ldquo;<em>When a son or daughter faces the crisis of divorce, the parents often experience a crisis of their own. They are hit with a flood of emotions: anger, confusion, sorrow, shame, guilt, sadness, and anxiety. There are more questions than answers: Why did this happen in our family? How can I help my child through this crisis? What will happen to my grandchildren? How should I treat my son-in-law or daughter-in-law? Where is God in this mess?</em>&rdquo;</p>",
+        "<p>Our goals were to help answer some of those questions, encourage and comfort parents, and help them be a positive influence in the lives of their children and grandchildren in the years ahead. Though this book never set any sales records, and is now only available through used bookstores, I'm blessed to have collaborated on this helpful little resource.</p>"
+      ]
     }
   ],
+  "commentsAndReviews": [],
   "linkCategories": [
     {
       "type": "Paperback",
