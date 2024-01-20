@@ -67,12 +67,14 @@
   //--------------------------------------------
   if (!pathname.includes('books-for-caregivers') && /\/books\/.+$/i.test(pathname)) {
     const bookDetailsBgImgHeight = 300;
+    const $bookDetailsWrapper = document.querySelector('#book-details-wrapper');
     const $bookDetailsTitles = document.querySelector('#book-details-titles');
     const $bookDetailsLinks = document.querySelector('#book-details-links');
     const positionBookLinks = () => {
-      const titlesRect = $bookDetailsTitles.getBoundingClientRect();
-      const linksMarginTop =
-        bookDetailsBgImgHeight - Math.round(titlesRect.bottom - $header.offsetHeight);
+      const wrapperTopOffset = parseInt(getComputedStyle($bookDetailsWrapper).paddingTop, 10);
+
+      const pos = wrapperTopOffset + $bookDetailsTitles.offsetHeight;
+      const linksMarginTop = bookDetailsBgImgHeight - pos;
 
       $bookDetailsLinks.style.marginTop = `${linksMarginTop}px`;
     };
@@ -81,7 +83,7 @@
     let resizeDebounce = null;
     window.addEventListener('resize', () => {
       clearTimeout(resizeDebounce);
-      resizeDebounce = setTimeout(positionBookLinks, 500);
+      resizeDebounce = setTimeout(positionBookLinks, 250);
     });
 
     //Run initially

@@ -23,7 +23,7 @@ permalink: "books/{{ book.title | slugify }}/"
     <div class="row">
       <div class="col-12 col-lg-4">
         <div class="row">
-          <div class="col-6 col-lg-12 order-lg-last" id="book-details-links">
+          <div class="col-5 col-lg-12 order-lg-last" id="book-details-links">
             {% if book.isCaregivers %}
               <div class="mt-4">
               See my other
@@ -47,12 +47,11 @@ permalink: "books/{{ book.title | slugify }}/"
               {% endfor %}
             </ul>
           </div>
-          <div class="col-6 col-lg-12 order-lg-first">
+          <div class="col-7 col-lg-12 order-lg-first">
             <img
               src="{{ book.coverImageUrl | url }}"
               class="img-fluid shadow mt-4 mt-lg-0"
-              alt="{{ book.title }}"
-/>
+              alt="{{ book.title }}"/>
           </div>
         </div>
       </div>

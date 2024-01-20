@@ -7,3 +7,4 @@
 - interviews pages
 - alternate quote font
 - browser testing
+- fix book detail subnav for small screens
