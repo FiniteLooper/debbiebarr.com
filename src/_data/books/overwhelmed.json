@@ -1,0 +1,38 @@
+{
+  "title": "Overwhelmed",
+  "subtitle": "",
+  "isFeatured": true,
+  "isCaregivers": false,
+  "publishDate": "2024-03-19",
+  "coverImageUrl": "/img/book-covers/overwhelmed.jpg",
+  "detailHeaderImageUrl": "",
+  "quoteText": "",
+  "quoteSource": "",
+  "description": ["Text goes here"],
+  "commentsAndReviews": [
+    {
+      "text": "Comment here",
+      "source": "source here"
+    }
+  ],
+  "linkCategories": [
+    {
+      "type": "Paperback",
+      "links": [
+        {
+          "name": "Example",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "type": "Ebook",
+      "links": [
+        {
+          "name": "Example",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}
