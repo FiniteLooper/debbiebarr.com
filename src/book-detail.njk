@@ -71,7 +71,8 @@ permalink: "books/{{ book.title | slugify }}/"
         {% for section in book.contentSections %}
           <div id="book-{{section.name | slugify}}" aria-label="{{section.name}}" class="{% if not loop.first %}d-none{% endif %}">
             {% for line in section.lines %}
-              {{ line | interpolate | safe  }}
+              {% set baseUrl = '/' | url %}
+              {{ line | interpolate | safe | replace('/img/', baseUrl + 'img/')  }}
             {% endfor %}
           </div>
         {% endfor %}
