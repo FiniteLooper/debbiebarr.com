@@ -28,20 +28,32 @@
       "type": "Paperback",
       "links": [
         {
+          "name": "Aspire Press",
+          "url": "https://www.hendricksonrose.com/p/forgiveness/9781496483560"
+        },
+        {
           "name": "Amazon",
-          "url": "#"
+          "url": "https://www.amazon.com/Forgiveness-Choice-that-Sets-Healing/dp/1496483561"
         },
         {
           "name": "Barnes & Noble",
-          "url": "#"
+          "url": "https://www.barnesandnoble.com/w/forgiveness-debbie-barr/1143681798?ean=9781496483560"
         },
         {
-          "name": "Books-A-Million",
-          "url": "#"
+          "name": "Get it Local",
+          "url": "https://getitlocaltoday.com/product/9781496483560"
         },
         {
-          "name": "Moody Publishing",
-          "url": "#"
+          "name": "Walmart",
+          "url": "https://www.walmart.com/search/?q=9781496483560"
+        },
+        {
+          "name": "Parable",
+          "url": "https://parable.com/product/9781496483560"
+        },
+        {
+          "name": "ChristianBook",
+          "url": "https://www.christianbook.com/forgiveness/9781496483560/pd/483562?event=AAI"
         }
       ]
     },
@@ -49,37 +61,20 @@
       "type": "Ebook",
       "links": [
         {
-          "name": "Kindle",
-          "url": "#"
+          "name": "Amazon Kindle",
+          "url": "https://www.amazon.com/Forgiveness-Choice-that-Sets-Healing-ebook/dp/B0CGMM3XV8/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
         },
         {
-          "name": "Nook",
-          "url": "#"
+          "name": "Barnes & Noble Nook",
+          "url": "https://www.barnesandnoble.com/w/forgiveness-debbie-barr/1143681798?ean=9781496483584"
         },
         {
-          "name": "Google",
-          "url": "#"
+          "name": "ChristianBook (ePub)",
+          "url": "https://www.christianbook.com/forgiveness-choice-that-sets-free-ebook/9781496483584/pd/126462EB?event=AAI"
         },
         {
-          "name": "Apple",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "type": "AudioBook",
-      "links": [
-        {
-          "name": "Audible",
-          "url": "#"
-        },
-        {
-          "name": "Google",
-          "url": "#"
-        },
-        {
-          "name": "Apple",
-          "url": "#"
+          "name": "ChristianBook (PDF)",
+          "url": "https://www.christianbook.com/forgiveness-choice-that-sets-free-pdf/9781496483607/pd/35151DF?event=AAI"
         }
       ]
     }

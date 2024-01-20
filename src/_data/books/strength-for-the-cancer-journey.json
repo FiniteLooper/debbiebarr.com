@@ -39,23 +39,27 @@
   ],
   "linkCategories": [
     {
-      "type": "Paperback",
+      "type": "Hardcover",
       "links": [
         {
+          "name": "Moody Publishers",
+          "url": "https://www.moodypublishers.com/strength-for-the-cancer-journey/?variationCode=978-0-8024-1954-5"
+        },
+        {
           "name": "Amazon",
-          "url": "#"
+          "url": "https://www.amazon.com/Strength-Cancer-Journey-Inspiration-Encouragement/dp/0802419542/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1703985938&sr=1-1"
         },
         {
           "name": "Barnes & Noble",
-          "url": "#"
+          "url": "https://www.barnesandnoble.com/w/strength-for-the-cancer-journey-deborahbarr/1136278741?ean=9780802419545"
         },
         {
           "name": "Books-A-Million",
-          "url": "#"
+          "url": "https://www.booksamillion.com/p/Strength-Cancer-Journey/Deborah-Barr/9780802419545?id=9035322922793"
         },
         {
-          "name": "Moody Publishing",
-          "url": "#"
+          "name": "ChristianBook",
+          "url": "https://www.christianbook.com/strength-for-the-cancer-journey/deborah-barr/9780802419545/pd/419542?event=ESRCG"
         }
       ]
     },
@@ -63,20 +67,16 @@
       "type": "Ebook",
       "links": [
         {
-          "name": "Kindle",
-          "url": "#"
+          "name": "Moody Publishers",
+          "url": "https://www.moodypublishers.com/strength-for-the-cancer-journey/?variationCode=978-0-8024-9817-5"
         },
         {
-          "name": "Nook",
-          "url": "#"
+          "name": "Barnes & Noble Nook",
+          "url": "https://www.barnesandnoble.com/w/strength-for-the-cancer-journey-deborah-barr/1136278741?ean=9780802498175"
         },
         {
-          "name": "Google",
-          "url": "#"
-        },
-        {
-          "name": "Apple",
-          "url": "#"
+          "name": "Amazon Kindle",
+          "url": "https://www.amazon.com/Strength-Cancer-Journey-Inspiration-Encouragement-ebook/dp/B084BPNMGM/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1703985938&sr=1-1"
         }
       ]
     },
@@ -84,16 +84,16 @@
       "type": "AudioBook",
       "links": [
         {
+          "name": "Books-A-Million",
+          "url": "https://www.booksamillion.com/p/Strength-Cancer-Journey/Barr-Deborah/L213000268?id=9035322922793"
+        },
+        {
+          "name": "Barnes & Noble",
+          "url": "https://www.barnesandnoble.com/w/strength-for-the-cancer-journey-deborah-barr/1136278741?ean=2940176700435"
+        },
+        {
           "name": "Audible",
-          "url": "#"
-        },
-        {
-          "name": "Google",
-          "url": "#"
-        },
-        {
-          "name": "Apple",
-          "url": "#"
+          "url": "https://www.audible.com/pd/Strength-for-the-Cancer-Journey-Audiobook/B08HD4MCZJ"
         }
       ]
     }

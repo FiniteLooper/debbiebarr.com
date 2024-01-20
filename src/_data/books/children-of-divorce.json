@@ -34,19 +34,23 @@
       "links": [
         {
           "name": "Amazon",
-          "url": "#"
+          "url": "https://www.amazon.com/Children-Divorce-Helping-Their-Parents/dp/0310287413/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1704466388&sr=1-4"
         },
         {
           "name": "Barnes & Noble",
-          "url": "#"
+          "url": "https://www.barnesandnoble.com/w/children-of-divorce-debbie-barr/1111397289?ean=9780310287414"
         },
         {
-          "name": "Books-A-Million",
-          "url": "#"
+          "name": "Walmart",
+          "url": "https://www.walmart.com/ip/Children-of-Divorce-Paperback-9780310287414/29714431?from=/search"
         },
         {
-          "name": "Moody Publishing",
-          "url": "#"
+          "name": "Get it Local",
+          "url": "https://getitlocaltoday.com/product/9780310287414"
+        },
+        {
+          "name": "Parable",
+          "url": "https://parable.com/product/9780310287414"
         }
       ]
     },
@@ -54,37 +58,16 @@
       "type": "Ebook",
       "links": [
         {
-          "name": "Kindle",
-          "url": "#"
+          "name": "Amazon Kindle",
+          "url": "https://www.amazon.com/Children-Divorce-Helping-Their-Parents-ebook/dp/B000SGTOYY/ref=sr_1_4?crid=SFCUITD1L6UM&keywords=Debbie+Barr&qid=1704466388&s=books&sprefix=debbie+barr%2Cstripbooks%2C192&sr=1-4"
         },
         {
-          "name": "Nook",
-          "url": "#"
+          "name": "Barnes & Noble Nook",
+          "url": "https://www.barnesandnoble.com/w/children-of-divorce-debbie-barr/1111397289?ean=9780310829188"
         },
         {
-          "name": "Google",
-          "url": "#"
-        },
-        {
-          "name": "Apple",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "type": "AudioBook",
-      "links": [
-        {
-          "name": "Audible",
-          "url": "#"
-        },
-        {
-          "name": "Google",
-          "url": "#"
-        },
-        {
-          "name": "Apple",
-          "url": "#"
+          "name": "ChristianBook",
+          "url": "https://www.christianbook.com/children-divorce-helping-parents-apart-ebook/debbie-barr/9780310829188/pd/3523EB?event=ESRCG"
         }
       ]
     }

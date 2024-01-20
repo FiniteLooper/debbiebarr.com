@@ -26,20 +26,32 @@
       "type": "Paperback",
       "links": [
         {
-          "name": "Amazon",
-          "url": "#"
+          "name": "Aspire Press",
+          "url": "https://www.hendricksonrose.com/p/caregiving/9781496483515"
         },
         {
           "name": "Barnes & Noble",
-          "url": "#"
+          "url": "https://www.barnesandnoble.com/w/caregiving-debbie-barr/1143681789?ean=9781496483515"
         },
         {
-          "name": "Books-A-Million",
-          "url": "#"
+          "name": "Get it Local ",
+          "url": "https://getitlocaltoday.com/product/9781496483515"
         },
         {
-          "name": "Moody Publishing",
-          "url": "#"
+          "name": "Walmart",
+          "url": "https://www.walmart.com/ip/Hope-and-Healing-Caregiving-Taking-Care-of-Yourself-While-Caring-for-Someone-Else-Paperback-9781496483515/3719053510?from=/search"
+        },
+        {
+          "name": "Parable",
+          "url": "https://parable.com/product/9781496483515"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/Caregiving-Taking-Yourself-Someone-Healing/dp/1496483510/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703981439&sr=8-6"
+        },
+        {
+          "name": "ChristianBook",
+          "url": "https://www.christianbook.com/caregiving/9781496483515/pd/483515?event=ESRCG"
         }
       ]
     },
@@ -47,37 +59,20 @@
       "type": "Ebook",
       "links": [
         {
-          "name": "Kindle",
-          "url": "#"
+          "name": "Amazon Kindle",
+          "url": "https://www.amazon.com/Caregiving-Taking-Yourself-Someone-Healing-ebook/dp/B0CGMLMSKF/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1703981439&sr=8-6"
         },
         {
-          "name": "Nook",
-          "url": "#"
+          "name": "Barnes & Noble Nook",
+          "url": "https://www.barnesandnoble.com/w/forgiveness-debbie-barr/1143681798?ean=9781496483584"
         },
         {
-          "name": "Google",
-          "url": "#"
+          "name": "ChristianBook (PDF)",
+          "url": "https://www.christianbook.com/caregiving-taking-yourself-while-caring-someone/9781496483553/pd/35150DF?event=ESRCG"
         },
         {
-          "name": "Apple",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "type": "AudioBook",
-      "links": [
-        {
-          "name": "Audible",
-          "url": "#"
-        },
-        {
-          "name": "Google",
-          "url": "#"
-        },
-        {
-          "name": "Apple",
-          "url": "#"
+          "name": "ChristianBook (ePub)",
+          "url": "https://www.christianbook.com/caregiving-taking-yourself-caring-someone-ebook/9781496483539/pd/126461EB?event=AAI"
         }
       ]
     }

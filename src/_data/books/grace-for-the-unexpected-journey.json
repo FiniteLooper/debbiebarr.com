@@ -46,23 +46,31 @@
   ],
   "linkCategories": [
     {
-      "type": "Paperback",
+      "type": "Hardcover",
       "links": [
         {
+          "name": "Moody Publishers",
+          "url": "https://www.moodypublishers.com/grace-for-the-unexpected-journey/"
+        },
+        {
+          "name": "5 Love Languages.com",
+          "url": "https://5lovelanguages.com/store/grace-for-the-unexpected-journey"
+        },
+        {
           "name": "Amazon",
-          "url": "#"
+          "url": "https://www.amazon.com/Grace-Unexpected-Journey-Devotional-Alzheimers/dp/0802416780/ref=sr_1_3?crid=234365MEFFDM&keywords=debbie+barr&qid=1703981320&sprefix=Debbie+Barr%2Caps%2C233&sr=8-3"
         },
         {
           "name": "Barnes & Noble",
-          "url": "#"
+          "url": "https://www.barnesandnoble.com/w/grace-for-the-unexpected-journey-debbie-barr/1126692275?ean=9780802416780"
         },
         {
           "name": "Books-A-Million",
-          "url": "#"
+          "url": "https://www.booksamillion.com/p/Grace-Unexpected-Journey/Deborah-Barr/9780802416780?id=9035322922793"
         },
         {
-          "name": "Moody Publishing",
-          "url": "#"
+          "name": "ChristianBook",
+          "url": "https://www.christianbook.com/unexpected-journey-devotional-alzheimers-dementia-caregivers/debbie-barr/9780802416780/pd/416781?event=AAI"
         }
       ]
     },
@@ -70,37 +78,16 @@
       "type": "Ebook",
       "links": [
         {
-          "name": "Kindle",
-          "url": "#"
+          "name": "Amazon Kindle",
+          "url": "https://www.amazon.com/Grace-Unexpected-Journey-Devotional-Alzheimers-ebook/dp/B073PQMY46/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1703981320&sr=8-3"
         },
         {
-          "name": "Nook",
-          "url": "#"
+          "name": "Barnes & Noble Nook",
+          "url": "https://www.barnesandnoble.com/w/grace-for-the-unexpected-journey-debbie-barr/1126692275?ean=9780802496331"
         },
         {
-          "name": "Google",
-          "url": "#"
-        },
-        {
-          "name": "Apple",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "type": "AudioBook",
-      "links": [
-        {
-          "name": "Audible",
-          "url": "#"
-        },
-        {
-          "name": "Google",
-          "url": "#"
-        },
-        {
-          "name": "Apple",
-          "url": "#"
+          "name": "ChristianBook",
+          "url": "https://www.christianbook.com/unexpected-journey-devotional-alzheimers-dementia-caregivers/debbie-barr/9780802496331/pd/93404EB?event=ESRCG"
         }
       ]
     }
