@@ -1,5 +1,6 @@
 # TODO
 
+- scan book cover for "A season at home"
 - book header images
 - lead paragraphs?
 - normalize book cover images
