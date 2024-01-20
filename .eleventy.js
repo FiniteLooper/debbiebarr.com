@@ -2,11 +2,16 @@ const sass = require('sass');
 const path = require('node:path');
 const htmlMin = require('html-minifier');
 const esbuild = require('esbuild');
+const nunjucks = require('nunjucks');
 
 module.exports = (eleventyConfig) => {
   const isBuildMode = process.env.ELEVENTY_RUN_MODE === 'build';
 
   eleventyConfig.addPassthroughCopy('src/img');
+
+  eleventyConfig.addNunjucksFilter('interpolate', (str) =>
+    nunjucks.renderString(str, eleventyConfig),
+  );
 
   eleventyConfig.addTemplateFormats('js');
   eleventyConfig.addExtension('js', {
