@@ -81,29 +81,28 @@
           "url": "https://www.amazon.com/Keeping-Love-Alive-Memories-`Fade/dp/0802414508/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1704466388&sr=1-5"
         },
         {
+          "name": "Amazon <small>(Spanish)</small>",
+          "url": "https://www.amazon.com/Mant%C3%A9n-vivo-cuando-memorias-desvanecen/dp/0825457769/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703986146&sr=1-3"
+        },
+        {
+          "name": "Amazon <small>(German)</small>",
+          "url": "https://www.amazon.com/Liebe-vergisst-man-nicht/dp/3868277226?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.rUXRzP_6U6jt9aKA6voEbrA_ceSseEbT0Y4f2qpiI5RcxqLZJHqA9O7c4nJbpIpITNe_k1NoSepBbpsTNATML-b1FfLHRLMhIsGSSX4ToKmmMuC-7yTf4x6N5tDb7PpusOpmkeDsC-dKKXqR5u63jBMADcK-jASAcrzq8dB-bLUYJ-d5C-DKTpH731Cwgp0m.W5vfcyYC-r6bgqEx6y7nSawqtyNCPtX4R9ltC2X26WI&dib_tag=AUTHOR"
+        },
+        {
+          "name": "Amazon <small>(Polish)</small>",
+          "url": "https://www.amazon.com/wspomnienia-bledna-jezykow-milosci-Alzheimera/dp/838065059X?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.rUXRzP_6U6jt9aKA6voEbrA_ceSseEbT0Y4f2qpiI5RcxqLZJHqA9O7c4nJbpIpITNe_k1NoSepBbpsTNATML-b1FfLHRLMhIsGSSX4ToKmmMuC-7yTf4x6N5tDb7PpusOpmkeDsC-dKKXqR5u63jBMADcK-jASAcrzq8dB-bLUYJ-d5C-DKTpH731Cwgp0m.W5vfcyYC-r6bgqEx6y7nSawqtyNCPtX4R9ltC2X26WI&dib_tag=AUTHOR"
+        },
+        {
           "name": "Barnes & Noble",
           "url": "https://www.barnesandnoble.com/w/keeping-love-alive-as-memories-fade-gary-d-chapman/1123269129?ean=9780802414502"
         },
         {
-          "name": "ChristianBook",
-          "url": "https://www.christianbook.com/keeping-alive-memories-languages-alzheimers-journey/debbie-barr/9780802414502/pd/414502?event=AAI"
-        },
-
-        {
-          "name": "Amazon (Spanish)",
-          "url": "https://www.amazon.com/Mant%C3%A9n-vivo-cuando-memorias-desvanecen/dp/0825457769/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703986146&sr=1-3"
-        },
-        {
-          "name": "Barnes & Noble (Spanish)",
+          "name": "Barnes & Noble <small>(Spanish)</small>",
           "url": "https://www.barnesandnoble.com/w/mantenha-vivo-o-amor-enquanto-as-mem-rias-se-apagam-gary-chapman/1144080987?ean=9786559881734"
         },
         {
-          "name": "Amazon (German)",
-          "url": "https://www.amazon.com/Liebe-vergisst-man-nicht/dp/3868277226?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.rUXRzP_6U6jt9aKA6voEbrA_ceSseEbT0Y4f2qpiI5RcxqLZJHqA9O7c4nJbpIpITNe_k1NoSepBbpsTNATML-b1FfLHRLMhIsGSSX4ToKmmMuC-7yTf4x6N5tDb7PpusOpmkeDsC-dKKXqR5u63jBMADcK-jASAcrzq8dB-bLUYJ-d5C-DKTpH731Cwgp0m.W5vfcyYC-r6bgqEx6y7nSawqtyNCPtX4R9ltC2X26WI&dib_tag=AUTHOR"
-        },
-        {
-          "name": "Amazon (Polish)",
-          "url": "https://www.amazon.com/wspomnienia-bledna-jezykow-milosci-Alzheimera/dp/838065059X?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.rUXRzP_6U6jt9aKA6voEbrA_ceSseEbT0Y4f2qpiI5RcxqLZJHqA9O7c4nJbpIpITNe_k1NoSepBbpsTNATML-b1FfLHRLMhIsGSSX4ToKmmMuC-7yTf4x6N5tDb7PpusOpmkeDsC-dKKXqR5u63jBMADcK-jASAcrzq8dB-bLUYJ-d5C-DKTpH731Cwgp0m.W5vfcyYC-r6bgqEx6y7nSawqtyNCPtX4R9ltC2X26WI&dib_tag=AUTHOR"
+          "name": "ChristianBook",
+          "url": "https://www.christianbook.com/keeping-alive-memories-languages-alzheimers-journey/debbie-barr/9780802414502/pd/414502?event=AAI"
         }
       ]
     },
@@ -111,32 +110,32 @@
       "type": "Ebook",
       "links": [
         {
-          "name": "Amazon Kindle",
+          "name": "Kindle",
           "url": "https://www.amazon.com/Keeping-Love-Alive-Memories-Fade-ebook/dp/B01BL30HR0/ref=sr_1_1?crid=2OR6NS5LMWWUL&keywords=keeping+love+alive+as+memories+fade+by+gary+chapman&qid=1703986435&s=digital-text&sprefix=%2Cdigital-text%2C352&sr=1-1"
+        },
+        {
+          "name": "Kindle <small>(Spanish)</small>",
+          "url": "https://www.amazon.com/Mant%C3%A9n-cuando-memorias-desvanecen-Spanish-ebook/dp/B079YXWW73/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1703986146&sr=1-3"
         },
         {
           "name": "ChristianBook",
           "url": "https://www.christianbook.com/keeping-memories-languages-alzheimers-journey-ebook/gary-chapman/9780802494412/pd/81986EB?event=AAI"
         },
         {
-          "name": "Barnes & Noble Nook",
+          "name": "Nook",
           "url": "https://www.barnesandnoble.com/w/keeping-love-alive-as-memories-fade-gary-d-chapman/1123269129?ean=9780802494412"
         },
         {
-          "name": "Amazon Kindle (Spanish)",
-          "url": "https://www.amazon.com/Mant%C3%A9n-cuando-memorias-desvanecen-Spanish-ebook/dp/B079YXWW73/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1703986146&sr=1-3"
-        },
-        {
-          "name": "ChristianBook (Spanish)",
-          "url": "https://www.christianbook.com/manten-vivo-el-amor-ebook/gary-chapman/9780825474903/pd/96018EB?event=AAI"
-        },
-        {
-          "name": "Barnes & Noble Nook (Spanish)",
+          "name": "Nook <small>(Spanish)</small>",
           "url": "https://www.barnesandnoble.com/w/mantenha-vivo-o-amor-enquanto-as-mem-rias-se-apagam-gary-chapman/1143748478?ean=9786559881741"
         },
         {
-          "name": "Barnes & Noble Nook (German)",
+          "name": "Nook <small>(German)</small>",
           "url": "https://www.barnesandnoble.com/w/liebe-vergisst-man-nicht-gary-chapman/1128019620?ean=9783963629983"
+        },
+        {
+          "name": "ChristianBook <small>(Spanish)</small>",
+          "url": "https://www.christianbook.com/manten-vivo-el-amor-ebook/gary-chapman/9780825474903/pd/96018EB?event=AAI"
         }
       ]
     },
