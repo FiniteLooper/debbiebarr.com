@@ -1,11 +1,14 @@
 # TODO
 
-- scan book cover for "A season at home"
-- book header images
-- normalize book cover images
+- Book Details
+  - book header images
+  - fix book detail subnav for small screens
+  - book cover image width?
+- Book Covers
+  - scan book cover for "A season at home"
+  - hover effects for books
+  - fix Grace book height (all heights equal)
+  - normalize book cover images
+    - BG color or zoomed/blurred duplicate image behind it?
 - alternate quote font
 - browser testing
-- fix book detail subnav for small screens
-- hover effects for books
-- fix Grace book height (all heights equal)
-- details book image cover width?
