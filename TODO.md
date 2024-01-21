@@ -3,7 +3,6 @@
 - Book Details
   - book header images
   - fix book detail subnav for small screens
-  - book cover image width?
 - Book Covers
   - scan book cover for "A season at home"
   - hover effects for books

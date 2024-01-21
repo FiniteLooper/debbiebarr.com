@@ -87,7 +87,12 @@
     {
       "type": "html",
       "lines": [
-        "<img srcset='/img/book-extras/kla-international-editions@2x.jpg 2x, /img/book-extras/kla-international-editions@1x.jpg 1x' src='/img/book-extras/kla-international-editions@1x.jpg' class='img-fluid mb-4' alt='A photo of the international editions of the Keeping Love Alive book in Spanish, German, and Polish'/>"
+        "<div class='d-flex justify-content-center'>",
+        "  <figure class='figure'>",
+        "    <img class='figure-img rounded shadow' srcset='/img/book-extras/kla-international-editions@2x.jpg 2x, /img/book-extras/kla-international-editions@1x.jpg 1x' src='/img/book-extras/kla-international-editions@1x.jpg' class='img-fluid mb-4' alt='A photo of the international editions of the Keeping Love Alive book in Spanish, Dutch, German, and Polish'/>",
+        "    <figcaption class='figure-caption'>The international editions in Spanish, Dutch, German, and Polish</figcaption>",
+        "  </figure>",
+        "</div>"
       ]
     }
   ],
