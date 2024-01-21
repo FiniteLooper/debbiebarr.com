@@ -43,15 +43,21 @@ $enable-rfs: false;
 $enable-dark-mode: false;
 
 // --------------------------------------------------------------
-// == COLORS ====================================================
+// == COLORS & SIZES ============================================
 // --------------------------------------------------------------
 $body-bg: #fdfffa;
 $link-color: #827112;
 
-// We don't need so many themes
+// We don't need so many themes, this generates less CSS
 $theme-colors: (
   'primary': #e7c748,
 );
+
+//Inputs & Buttons
+$input-btn-border-width: 2px; //input field border width
+$component-active-bg: #827112; //input field active/focus border color
+$focus-ring-opacity: 0.5;
+$focus-ring-color: rgba(#e7c748, $focus-ring-opacity);
 
 // --------------------------------------------------------------
 // == SHADOWS ====================================================

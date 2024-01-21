@@ -5,6 +5,22 @@ html {
   min-height: 100vh;
 }
 
+:focus-visible {
+  outline: 3px solid $site-color-highlight !important;
+
+  &:not(.btn) {
+    border-radius: $border-radius-sm;
+  }
+}
+.btn:focus-visible {
+  outline-color: $site-color-link !important;
+}
+
+blockquote {
+  //same as navigation
+  font-weight: 300;
+}
+
 #main-content {
   padding: $site-spacing 0;
 
@@ -35,9 +51,4 @@ html {
       margin-bottom: $site-spacing-desktop;
     }
   }
-}
-
-blockquote {
-  //same as navigation
-  font-weight: 300;
 }

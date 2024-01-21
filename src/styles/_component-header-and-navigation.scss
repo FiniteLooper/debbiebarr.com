@@ -39,7 +39,8 @@
   line-height: $site-shared-nav-line-height;
   text-decoration: none;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $site-shared-nav-bg-hover;
   }
 }
