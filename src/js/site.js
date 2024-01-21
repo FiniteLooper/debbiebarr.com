@@ -1,14 +1,10 @@
 (() => {
   const $body = document.querySelector('body');
-  const $header = document.querySelector('#header');
   const $toggleSidebar = document.querySelector('#toggle-sidebar');
   const $sidebar = document.querySelector('#sidebar');
   const $closeSidebar = document.querySelector('#close-sidebar');
   const $sidebarLinks = Array.from(document.querySelectorAll('#sidebar a, #sidebar button'));
   const $sidebarBackdrop = document.querySelector('#sidebar-backdrop');
-  const $bookDetailsSubnavItems = document.querySelectorAll(
-    '#book-details-content .sub-navigation a',
-  );
   const pathname = location.pathname.toLowerCase().trim();
 
   //--------------------------------------------
@@ -70,24 +66,33 @@
     const $bookDetailsWrapper = document.querySelector('#book-details-wrapper');
     const $bookDetailsTitles = document.querySelector('#book-details-titles');
     const $bookDetailsLinks = document.querySelector('#book-details-links');
+    const $bookDetailsSubnav = document.querySelector('#book-details-content > .sub-navigation');
+    const $bookDetailsSubnavItems = $bookDetailsSubnav.querySelectorAll('a');
+
     const positionBookLinks = () => {
       const wrapperTopOffset = parseInt(getComputedStyle($bookDetailsWrapper).paddingTop, 10);
-
       const pos = wrapperTopOffset + $bookDetailsTitles.offsetHeight;
       const linksMarginTop = bookDetailsBgImgHeight - pos;
-
       $bookDetailsLinks.style.marginTop = `${linksMarginTop}px`;
+    };
+
+    const sizeSubnavBackground = () => {
+      $bookDetailsSubnav.style.setProperty('--book-details-subnav-bg-height', `${$bookDetailsSubnav.clientHeight}px`);
     };
 
     //Run on window resize
     let resizeDebounce = null;
     window.addEventListener('resize', () => {
       clearTimeout(resizeDebounce);
-      resizeDebounce = setTimeout(positionBookLinks, 250);
+      resizeDebounce = setTimeout(() => {
+        positionBookLinks();
+        sizeSubnavBackground();
+      }, 250);
     });
 
     //Run initially
     positionBookLinks();
+    sizeSubnavBackground();
 
     //Clicking on the book details sub-navigation will show the related sections
     //The href of the link must match the ID of the element to show

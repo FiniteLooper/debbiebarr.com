@@ -2,7 +2,6 @@
 
 - Book Details
   - book header images
-  - fix book detail subnav for small screens
   - subnav clicks change URL & set focus
   - combine sections/comments
 - Book Covers

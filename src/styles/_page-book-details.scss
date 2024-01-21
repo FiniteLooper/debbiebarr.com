@@ -41,25 +41,27 @@ $details-header-img-height: 300px;
 }
 
 #book-details-links {
+  // The margin-top value is calculated with JS on page resize, so we can animate it here
+  transition: margin-top $site-duration $site-ease-out-expo;
+
   @include media-breakpoint-up(lg) {
-    // The margin-top value is calculated with JS on page resize
     // But on larger screens we want to use this value at all times instead
     margin-top: 0 !important;
+    transition: none;
   }
 }
 
 #book-details-content {
   .sub-navigation {
+    // Match the height of the sub-navigation by combining the line height in REM + the top & bottom padding
+    //This CSS var will also be set by JS upon a page resize event
+    --book-details-subnav-bg-height: calc(calc($site-sub-nav-item-padding * 2) + #{$site-shared-nav-line-height}rem); // ~52px
+
     // pseudo-element added to make it look like it's full-width
     &::before {
       display: block;
       content: '';
-
-      // Match the height of the sub-navigation by combining the line height in REM + the top & bottom padding
-      height: calc(
-        calc($site-sub-nav-item-padding * 2) + #{$site-shared-nav-line-height}rem
-      ); // ~52px
-
+      height: var(--book-details-subnav-bg-height);
       width: 100%;
       position: absolute;
       left: 0;
