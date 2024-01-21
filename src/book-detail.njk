@@ -57,13 +57,13 @@ permalink: "books/{{ book.title | slugify }}/"
       </div>
       <div class="col-12 col-lg-8" id="book-details-content">
         <nav
-          class="sub-navigation my-4 mt-lg-0 d-flex justify-content-center align-items-end text-uppercase"
+          class="sub-navigation my-4 mt-lg-0 d-flex justify-content-center align-items-stretch align-items-md-end text-uppercase"
         >
           {% for section in book.contentSections %}
-            <a href="#book-{{section.name | slugify}}" class="{% if loop.first %}current{% endif %}">{{section.name}}</a>
+            <a href="#book-{{section.name | slugify}}" class="d-flex align-items-center {% if loop.first %}current{% endif %}">{{section.name}}</a>
           {% endfor %}
           {% if book.commentsAndReviews.length > 0 %}
-            <a href="#book-comments-and-reviews">Comments And Reviews</a>
+            <a href="#book-comments-and-reviews" class="d-flex align-items-center">Comments And Reviews</a>
           {% endif %}
         </nav>
 

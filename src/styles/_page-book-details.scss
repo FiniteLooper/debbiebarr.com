@@ -66,6 +66,21 @@ $details-header-img-height: 300px;
       background: $site-sub-nav-bg;
       z-index: -1;
     }
+
+    a {
+      text-align: center;
+
+      @include media-breakpoint-only(xs) {
+        //XS size ONLY!!
+        padding-left: calc($site-sub-nav-item-padding/2);
+        padding-right: calc($site-sub-nav-item-padding/2);
+      }
+
+      @include media-breakpoint-down(md) {
+        //XS and SM sizes ONLY!!
+        line-height: 1;
+      }
+    }
   }
 
   @include media-breakpoint-up(lg) {
