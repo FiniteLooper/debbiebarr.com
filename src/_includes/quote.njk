@@ -2,9 +2,9 @@
   {% if not quoteColWidth %}
     {% set quoteColWidth = 6%}
   {% endif %}
+  <hr class="mt-4">
   <div class="row justify-content-center">
     <div class="col-lg-{{quoteColWidth}}">
-      <hr/>
       <figure>
         <blockquote class="blockquote">
           <p>{{quoteText | safe}}</p>
