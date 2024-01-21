@@ -81,18 +81,25 @@ permalink: "books/{{ book.title | slugify }}/"
                aria-label="Comments And Reviews"
                class="d-none">
             {% for obj in book.commentsAndReviews %}
-              <figure>
-                <blockquote class="blockquote fs-6">
-                  <p>{{obj.text | safe}}</p>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                  {% if obj.citation %}
-                    {{obj.source}}, <cite>{{obj.citation}}</cite>
-                  {% else %}
-                    {{obj.source}}
-                  {% endif %}
-                </figcaption>
-              </figure>
+              {% if obj.type == "quote"%}
+                <figure>
+                  <blockquote class="blockquote fs-6">
+                    <p>{{obj.text | safe}}</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    {% if obj.citation %}
+                      {{obj.source}}, <cite>{{obj.citation}}</cite>
+                    {% else %}
+                      {{obj.source}}
+                    {% endif %}
+                  </figcaption>
+                </figure>
+              {% else %}
+                {% for line in obj.lines %}
+                  {% set baseUrl = '/' | url %}
+                  {{ line | interpolate | safe | replace('/img/', baseUrl + 'img/')  }}
+                {% endfor %}
+              {% endif %}
             {% endfor %}
           </div>
         {% endif %}
