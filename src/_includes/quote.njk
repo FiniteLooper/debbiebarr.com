@@ -1,6 +1,9 @@
 {%if quoteText.length >0 and quoteSource.length > 0 %}
+  {% if not quoteColWidth %}
+    {% set quoteColWidth = 6%}
+  {% endif %}
   <div class="row justify-content-center">
-    <div class="col-lg-6">
+    <div class="col-lg-{{quoteColWidth}}">
       <hr/>
       <figure>
         <blockquote class="blockquote">
