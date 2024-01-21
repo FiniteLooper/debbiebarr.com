@@ -1,12 +1,16 @@
 {%if quoteText.length >0 and quoteSource.length > 0 %}
-  <hr/>
-  <figure>
-    <blockquote class="blockquote">
-      <p>{{quoteText | safe}}</p>
-    </blockquote>
-    <figcaption class="blockquote-footer">
-      <cite>{{quoteSource | safe}}</cite>
-    </figcaption>
-  </figure>
-  <hr>
+  <div class="row justify-content-center">
+    <div class="col-lg-6">
+      <hr/>
+      <figure>
+        <blockquote class="blockquote">
+          <p>{{quoteText | safe}}</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <cite>{{quoteSource | safe}}</cite>
+        </figcaption>
+      </figure>
+      <hr>
+    </div>
+  </div>
 {% endif %}
