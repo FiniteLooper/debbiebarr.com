@@ -24,11 +24,11 @@
       "type": "Paperback",
       "links": [
         {
-          "name": "Amazon (Buy it Used)",
+          "name": "Amazon <small>(Buy it Used)</small>",
           "url": "https://www.amazon.com/When-Daughter-Going-Through-Divorce/dp/0840791887/ref=sr_1_1?crid=17UFPQ1ZYKLXN&keywords=When+Your+Son+or+Daughter+is+Going+Through+a+Divorce&qid=1703985412&sprefix=when+your+son+or+daughter+is+going+through+a+divorce%2Caps%2C265&sr=8-1"
         },
         {
-          "name": "Books-A-Million (Buy it Used)",
+          "name": "Books-A-Million <small>(Buy it Used)</small>",
           "url": "https://www.booksamillion.com/search?id=9035322922793&query=When%20Your%20Son%20or%20Daughter%20is%20Going%20Through%20a%20Divorce:%20%20How%20to%20Be%20a%20Positive%20Influence%20During%20A...&filter=rare_search&search=Search&work_id=35126910&qty_avail=8"
         }
       ]
