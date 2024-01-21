@@ -6,7 +6,6 @@
   "navigation": [
     { "name": "Home", "url": "/" },
     { "name": "Books", "url": "/books/" },
-    { "name": "Interviews", "url": "/interviews/" },
     { "name": "About", "url": "/about/" },
     { "name": "Contact", "url": "/contact/" }
   ]
