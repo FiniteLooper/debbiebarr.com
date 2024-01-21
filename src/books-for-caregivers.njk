@@ -21,9 +21,9 @@ quoteSource: Alain de Botton
 
 <div class="container">
 
-  <div id="books-grid">
+  <div class="row row-gap-4 justify-content-center">
     {% for book in booksArr | sort(false, false, "publishDate") | reverse %}
-      <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
+      <a class="col-6 col-md-4 col-lg-3" href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
         <img src="{{ book.coverImageUrl | url }}" class="img-fluid shadow" alt="{{ book.title }}"/>
       </a>
     {% endfor %}
