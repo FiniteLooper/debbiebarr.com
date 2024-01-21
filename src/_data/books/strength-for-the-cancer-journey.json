@@ -34,14 +34,14 @@
     },
     {
       "type": "quote",
-      "text": "If you know of someone who has cancer, Strength for the Cancer Journey, will be a welcomed gift. I would encourage churches to give this book to every member who is diagnosed with cancer. It is a wonderful way of expressing love and care for anyone who is on the &ldquo;cancer journey.&rdquo;",
-      "source": "Gary Chapman, Ph.D.",
-      "citation": "author of The 5 Love Languages"
-    },
-    {
-      "type": "quote",
       "text": "This book was given to me anonymously by someone aware of my cancer diagnosis. I would love to thank them for doing so. This book has brought me such comfort during this very difficult time. Anyone who knows someone with cancer should share this book with them. They will be eternally grateful as I am. ",
       "source": "Goodreads Review"
+    },
+    {
+      "type": "html",
+      "lines": [
+        "<img srcset='/img/book-extras/strength-gary-quote@2x.jpg 2x, /img/book-extras/strength-gary-quote@1x.jpg 1x' src='/img/book-extras/strength-gary-quote@1x.jpg' class='img-fluid mb-4' alt='If you know of someone who has cancer, Strength for the Cancer Journey, will be a welcomed gift. - Gary Chapman, Ph.D., author of The 5 Love Languages'/>"
+      ]
     },
     {
       "type": "quote",
