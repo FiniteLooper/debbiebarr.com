@@ -12,7 +12,7 @@
     {
       "name": "Description",
       "lines": [
-        "<p><em>A Season at Home</em> has been out of print for many years now. I wrote it as a young, stay-at-home mom, partly to defend and partly to advocate for the choice to be a full-time mom. The book opens with my recollection of a visit from a good friend who came to see me a few months after my son was born:</p>",
+        "<p class='lead'><em>A Season at Home</em> has been out of print for many years now. I wrote it as a young, stay-at-home mom, partly to defend and partly to advocate for the choice to be a full-time mom. The book opens with my recollection of a visit from a good friend who came to see me a few months after my son was born:</p>",
         "<p class='ps-4'>She was a career woman, married, and childless by choice. We'd had a lot in common during our mutually childless years and had spent a fair amount of time together. But now, as we sat talking in my home, there seemed to be an odd hint of distance forming between us. It felt uncomfortable, yet it seemed unavoidable: a new chapter in my life had begun. &hellip; We chatted for a while, but as the conversation dwindled, she finally asked, &ldquo;Uh, what do you <em>do</em> all day?&rdquo;</p>",
         "<p class='ps-4'>That's when I first felt <em>those</em> feelings. Maybe you've felt them too: The sudden depletion of self-esteem. The urge to apologize for being at home. The desire to defend mothers at home (knowing in your heart that it's a great choice) but not knowing what to say or where to begin.</p>",
         "<p class='ps-4'>I certainly didn't realize it at the time, but I think the day my friend came to visit was the day this book began.</p>",
