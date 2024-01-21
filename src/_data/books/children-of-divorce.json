@@ -25,12 +25,23 @@
   ],
   "commentsAndReviews": [
     {
+      "type": "quote",
       "text": "Both as a pastor who gives this book as the best resource to those involved with helping children through split homes, and as a divorced father&hellip;this book provides great advice&hellip;so well done&hellip;",
       "source": "Amazon Review"
     },
     {
+      "type": "quote",
       "text": "I liked the book. It was the first book that I read about how divorce affects children. Since I am in the middle of a divorce it's important for me to know how to help my children cope. The most important thing I learned from the book is to constantly tell the kids over and over that the divorce was not their fault. Children did not cause it, they cannot fix it! Definitely suggest anyone going through a divorce that has children to read it! ",
       "source": "Goodreads Review"
+    },
+    {
+      "type": "html",
+      "lines": [
+        "<h4>Articles</h4>",
+        "<ul>",
+        "  <li><a href='https://forsythfamilymagazine.com/children-divorce-helping-kids-parents-apart/' target='_blank'>Forsyth Family Magazine</a></li>",
+        "</ul>"
+      ]
     }
   ],
   "linkCategories": [
