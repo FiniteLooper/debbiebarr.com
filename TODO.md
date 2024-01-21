@@ -9,4 +9,3 @@
 - hover effects for books
 - fix Grace book height (all heights equal)
 - details book image cover width?
-- KLA book comments & reviews - add photos of multilingual books
