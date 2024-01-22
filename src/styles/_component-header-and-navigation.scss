@@ -2,6 +2,7 @@
 
 #header {
   background: $site-header-bg;
+  z-index: 1;
 
   h1 {
     color: $site-header-title-color;
