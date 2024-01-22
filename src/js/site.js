@@ -99,12 +99,14 @@
     $bookDetailsSubnavItems.forEach((item) => {
       item.addEventListener('click', (ev) => {
         ev.preventDefault();
-        $bookDetailsSubnavItems.forEach((x) => {
-          x.classList.remove('current');
-          document.querySelector(x.getAttribute('href')).classList.add('d-none');
+        $bookDetailsSubnavItems.forEach((item) => {
+          item.classList.remove('current');
+          document.querySelector(item.getAttribute('href')).classList.add('d-none');
         });
         item.classList.add('current');
-        document.querySelector(item.getAttribute('href')).classList.remove('d-none');
+        const $nowShowing = document.querySelector(item.getAttribute('href'));
+        $nowShowing.classList.remove('d-none');
+        $nowShowing.focus();
       });
     });
   }
