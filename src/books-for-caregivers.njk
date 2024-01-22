@@ -21,10 +21,13 @@ quoteSource: Alain de Botton
 
 <div class="container">
 
-  <div class="row row-gap-4 justify-content-center">
+  <div id="books-grid" class="row row-gap-4 justify-content-center">
     {% for book in booksArr | sort(false, false, "publishDate") | reverse %}
-      <a class="col-6 col-md-4 col-lg-3" href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
-        <img src="{{ book.coverImageUrl | url }}" class="img-fluid shadow" alt="{{ book.title }}"/>
+      <a class="col-6 col-md-4 col-lg-3 d-flex align-items-center" href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
+        <img src="{{ book.coverImageUrl | url }}" class="img-fluid" alt="{{ book.title }}"/>
+        <div class="book-bg-container">
+          <div class="book-bg" style="background-image:url('{{ book.coverImageUrl | url }}');"></div>
+        </div>
       </a>
     {% endfor %}
   </div>

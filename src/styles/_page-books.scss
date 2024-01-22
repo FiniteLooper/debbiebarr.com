@@ -1,0 +1,41 @@
+@use 'variables' as *;
+
+#books-grid {
+  img {
+    //the actual book cover
+    z-index: 1;
+    @include transition(all $site-duration-fast $site-ease-out-expo);
+    box-shadow: $box-shadow;
+  }
+
+  a {
+    position: relative;
+
+    @media (prefers-reduced-motion: no-preference) {
+      //hover transition only for those with no motion preference
+      &:hover,
+      &:focus {
+        img {
+          transform: scale(1.03);
+          box-shadow: $box-shadow-lg;
+        }
+      }
+    }
+  }
+
+  .book-bg-container {
+    //contain the blurred BG image
+    position: absolute;
+    inset: 0 calc(var(--bs-gutter-x) * 0.5) 0 calc(var(--bs-gutter-x) * 0.5);
+    overflow: hidden;
+  }
+
+  .book-bg {
+    //The blurred BG image to make everything appear to be even height
+    position: absolute;
+    inset: 0 0 0 0;
+    background-size: 120%;
+    background-position: center center;
+    filter: blur(5px) brightness(1.125) opacity(0.75);
+  }
+}

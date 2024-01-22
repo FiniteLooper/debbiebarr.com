@@ -42,7 +42,7 @@ $details-header-img-height: 300px;
 
 #book-details-links {
   // The margin-top value is calculated with JS on page resize, so we can animate it here
-  transition: margin-top $site-duration $site-ease-out-expo;
+  @include transition(margin-top $site-duration $site-ease-out-expo);
 
   @include media-breakpoint-up(lg) {
     // But on larger screens we want to use this value at all times instead
