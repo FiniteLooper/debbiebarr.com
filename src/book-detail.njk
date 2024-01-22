@@ -12,7 +12,7 @@ pagination:
 permalink: "books/{{ book.title | slugify }}/"
 ---
 
-<div id="book-details-wrapper" class="flush-with-header">
+<div id="book-details-wrapper" class="flush-with-header" style="background-image:url('{{book.detailHeaderImageUrl | url}}');">
   <div class="container position-relative">
     <div id="book-details-titles">
       <h2 class="mb-0">{{ book.title }}</h2>
