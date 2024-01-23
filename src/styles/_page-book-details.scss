@@ -14,11 +14,7 @@ $details-header-img-height: 300px;
 
 #book-details-titles {
   color: $site-color-light;
-
-  h2,
-  h3 {
-    line-height: $site-header-title-line-height;
-  }
+  text-shadow: $site-text-shadow;
 
   h2 {
     font-size: 4rem;
