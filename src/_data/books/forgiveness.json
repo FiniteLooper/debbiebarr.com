@@ -8,6 +8,7 @@
   "detailHeaderImageUrl": "/img/book-headers/forgiveness.jpg",
   "quoteText": "Words which do not give the light of Christ increase the darkness.",
   "quoteSource": "Mother Teresa",
+  "quoteColWidth": 7,
   "contentSections": [
     {
       "name": "Description",

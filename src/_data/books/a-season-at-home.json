@@ -8,6 +8,7 @@
   "detailHeaderImageUrl": "/img/book-headers/a-season-at-home.jpg",
   "quoteText": "Love begins by taking care of the closest ones—the ones at home",
   "quoteSource": "Mother Teresa",
+  "quoteColWidth": 7,
   "contentSections": [
     {
       "name": "Description",

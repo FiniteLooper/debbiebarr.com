@@ -8,6 +8,7 @@
   "detailHeaderImageUrl": "/img/book-headers/keeping-love-alive-as-memories-fade.jpg",
   "quoteText": "There is no substitute for the love of an Alzheimer's caregiver.",
   "quoteSource": "Bob DeMarco",
+  "quoteColWidth": 7,
   "contentSections": [
     {
       "name": "Description",
