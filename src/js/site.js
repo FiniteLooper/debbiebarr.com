@@ -58,10 +58,10 @@
   $sidebarBackdrop.addEventListener('click', closeSidebar, false);
   $sidebarBackdrop.addEventListener('touchstart', closeSidebar, false);
 
-  //--------------------------------------------
-  //BOOK DETAILS - anything under the /books/* but not the "books for caregivers" page
-  //--------------------------------------------
   if (!pathname.includes('books-for-caregivers') && /\/books\/.+$/i.test(pathname)) {
+    //--------------------------------------------
+    //BOOK DETAILS - anything under the /books/* but not the "books for caregivers" page
+    //--------------------------------------------
     const bookDetailsBgImgHeight = 300;
     const $bookDetailsWrapper = document.querySelector('#book-details-wrapper');
     const $bookDetailsTitles = document.querySelector('#book-details-titles');
@@ -94,27 +94,38 @@
     positionBookLinks();
     sizeSubnavBackground();
 
+    const showContentSection = (el, shouldFocus) => {
+      $bookDetailsSubnavItems.forEach((x) => {
+        x.classList.remove('current');
+        document.querySelector(x.getAttribute('href')).classList.add('d-none');
+      });
+      el.classList.add('current');
+      const $nowShowing = document.querySelector(el.getAttribute('href'));
+      $nowShowing.classList.remove('d-none');
+      if (shouldFocus) {
+        $nowShowing.focus();
+      }
+    };
+
+    //Auto-select the section if it's in the URL hash
+    if (location.hash != '') {
+      const $matchingLink = $bookDetailsSubnav.querySelector(`[href$="${location.hash.replace('#', '')}"]`);
+      showContentSection($matchingLink, false);
+    }
+
     //Clicking on the book details sub-navigation will show the related sections
     //The href of the link must match the ID of the element to show
-    $bookDetailsSubnavItems.forEach((item) => {
-      item.addEventListener('click', (ev) => {
+    $bookDetailsSubnavItems.forEach(($item) => {
+      $item.addEventListener('click', (ev) => {
         ev.preventDefault();
-        $bookDetailsSubnavItems.forEach((item) => {
-          item.classList.remove('current');
-          document.querySelector(item.getAttribute('href')).classList.add('d-none');
-        });
-        item.classList.add('current');
-        const $nowShowing = document.querySelector(item.getAttribute('href'));
-        $nowShowing.classList.remove('d-none');
-        $nowShowing.focus();
+        showContentSection($item, true);
+        history.replaceState(undefined, undefined, $item.getAttribute('href'));
       });
     });
-  }
-
-  //--------------------------------------------
-  //CONTACT FORM
-  //--------------------------------------------
-  if (pathname.includes('/contact')) {
+  } else if (pathname.includes('/contact')) {
+    //--------------------------------------------
+    //CONTACT FORM
+    //--------------------------------------------
     const $form = document.querySelector('#contact-form');
     const $formFields = $form.querySelectorAll('input,textarea');
     const $status = document.querySelector('#form-status');
