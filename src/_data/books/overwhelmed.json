@@ -1,6 +1,6 @@
 {
   "title": "Overwhelmed",
-  "subtitle": "",
+  "subtitle": "How to Stop Trying to Do It All",
   "isFeatured": true,
   "isCaregivers": false,
   "publishDate": "2024-03-19",
@@ -20,24 +20,5 @@
     }
   ],
   "commentsAndReviews": [],
-  "linkCategories": [
-    {
-      "type": "Paperback",
-      "links": [
-        {
-          "name": "Example",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "type": "Ebook",
-      "links": [
-        {
-          "name": "Example",
-          "url": "#"
-        }
-      ]
-    }
-  ]
+  "linkCategories": []
 }

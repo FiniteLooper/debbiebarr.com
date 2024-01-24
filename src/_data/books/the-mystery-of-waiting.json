@@ -21,24 +21,5 @@
     }
   ],
   "commentsAndReviews": [],
-  "linkCategories": [
-    {
-      "type": "Paperback",
-      "links": [
-        {
-          "name": "Example",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "type": "Ebook",
-      "links": [
-        {
-          "name": "Example",
-          "url": "#"
-        }
-      ]
-    }
-  ]
+  "linkCategories": []
 }
