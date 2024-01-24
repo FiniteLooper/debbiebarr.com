@@ -63,6 +63,7 @@
     //BOOK DETAILS - anything under the /books/* but not the "books for caregivers" page
     //--------------------------------------------
     const bookDetailsBgImgHeight = 300;
+    const contentSectionIdPrefix = 'book-';
     const $bookDetailsWrapper = document.querySelector('#book-details-wrapper');
     const $bookDetailsTitles = document.querySelector('#book-details-titles');
     const $bookDetailsLinks = document.querySelector('#book-details-links');
@@ -109,7 +110,7 @@
 
     //Auto-select the section if it's in the URL hash
     if (location.hash != '') {
-      const $matchingLink = $bookDetailsSubnav.querySelector(`[href$="${location.hash.replace('#', '')}"]`);
+      const $matchingLink = $bookDetailsSubnav.querySelector(`[href="#${contentSectionIdPrefix}${location.hash.replace('#', '')}"]`);
       showContentSection($matchingLink, false);
     }
 
@@ -119,7 +120,7 @@
       $item.addEventListener('click', (ev) => {
         ev.preventDefault();
         showContentSection($item, true);
-        history.replaceState(undefined, undefined, $item.getAttribute('href'));
+        history.replaceState(undefined, undefined, $item.getAttribute('href').replace(contentSectionIdPrefix, ''));
       });
     });
   } else if (pathname.includes('/contact')) {
