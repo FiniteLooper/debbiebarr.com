@@ -103,19 +103,23 @@
       "links": [
         {
           "name": "Amazon",
-          "url": "https://www.amazon.com/Keeping-Love-Alive-Memories-`Fade/dp/0802414508/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1704466388&sr=1-5"
+          "url": "https://www.amazon.com/Keeping-Love-Alive-Memories-`Fade/dp/0802414508"
         },
         {
           "name": "Amazon <small>(Spanish)</small>",
-          "url": "https://www.amazon.com/Mant%C3%A9n-vivo-cuando-memorias-desvanecen/dp/0825457769/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703986146&sr=1-3"
+          "url": "https://www.amazon.com/Mant%C3%A9n-vivo-cuando-memorias-desvanecen/dp/0825457769"
         },
         {
           "name": "Amazon <small>(German)</small>",
-          "url": "https://www.amazon.com/Liebe-vergisst-man-nicht/dp/3868277226?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.rUXRzP_6U6jt9aKA6voEbrA_ceSseEbT0Y4f2qpiI5RcxqLZJHqA9O7c4nJbpIpITNe_k1NoSepBbpsTNATML-b1FfLHRLMhIsGSSX4ToKmmMuC-7yTf4x6N5tDb7PpusOpmkeDsC-dKKXqR5u63jBMADcK-jASAcrzq8dB-bLUYJ-d5C-DKTpH731Cwgp0m.W5vfcyYC-r6bgqEx6y7nSawqtyNCPtX4R9ltC2X26WI&dib_tag=AUTHOR"
+          "url": "https://www.amazon.com/Liebe-vergisst-man-nicht/dp/3868277226"
         },
         {
           "name": "Amazon <small>(Polish)</small>",
-          "url": "https://www.amazon.com/wspomnienia-bledna-jezykow-milosci-Alzheimera/dp/838065059X?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.rUXRzP_6U6jt9aKA6voEbrA_ceSseEbT0Y4f2qpiI5RcxqLZJHqA9O7c4nJbpIpITNe_k1NoSepBbpsTNATML-b1FfLHRLMhIsGSSX4ToKmmMuC-7yTf4x6N5tDb7PpusOpmkeDsC-dKKXqR5u63jBMADcK-jASAcrzq8dB-bLUYJ-d5C-DKTpH731Cwgp0m.W5vfcyYC-r6bgqEx6y7nSawqtyNCPtX4R9ltC2X26WI&dib_tag=AUTHOR"
+          "url": "https://www.amazon.com/wspomnienia-bledna-jezykow-milosci-Alzheimera/dp/838065059X"
+        },
+        {
+          "name": "Amazon <small>(Dutch)</small>",
+          "url": "https://www.amazon.nl/vijf-talen-liefde-dementie-herinneringen/dp/9033804182/"
         },
         {
           "name": "Barnes & Noble",
@@ -128,6 +132,10 @@
         {
           "name": "ChristianBook",
           "url": "https://www.christianbook.com/keeping-alive-memories-languages-alzheimers-journey/debbie-barr/9780802414502/pd/414502?event=AAI"
+        },
+        {
+          "name": "Jongbloed <small>(Dutch)</small>",
+          "url": "https://www.jongbloedmedia.nl/product/de-vijf-talen-van-de-liefde-bij-dementie/"
         }
       ]
     },
