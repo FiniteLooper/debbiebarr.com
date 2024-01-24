@@ -11,28 +11,36 @@
   "contentSections": [
     {
       "name": "Description",
-      "lines": [
-        "<p class='lead'>Chances are, you know a child whose parents are divorcing. If you're wondering, &ldquo;How can I help?&rdquo; you'll find plenty of suggestions in Children of Divorce: Helping Kids When Their Parents are Apart. This book blends information from expert psychologists with poignant interviews with the real experts—the children of divorcing parents. The results are sympathetic, insightful answers to the &ldquo;how can I help&rdquo; question.</p>",
-        "<p>One key takeaway for readers is that children's responses to divorce varies according to their age. Part Two of the book addresses this with separate sections for babies and toddlers, preschoolers, five-to-eight-year-olds, preteens, and teenagers. The book includes four brief read-aloud stories for young children. It also provides insights about:</p>",
-        "<ul>",
-        "  <li>Explaining divorce to a child</li>",
-        "  <li>How parents and other adults, such as grandparents, church friends, and teachers, can help kids deal with divorce </li>",
-        "  <li>Why &ldquo;anything that aids the parent ultimately benefits the child&rdquo;</li>",
-        "</ul>",
-        "<p>Children of Divorce takes a candid and compassionate look at the truth about divorce, how it forever changes the lives of those it touches. But it also shines a bright light on how caring adults outside the family can make a positive difference for both kids and their parents.</p>"
+      "content": [
+        {
+          "type": "html",
+          "lines": [
+            "<p class='lead'>Chances are, you know a child whose parents are divorcing. If you're wondering, &ldquo;How can I help?&rdquo; you'll find plenty of suggestions in Children of Divorce: Helping Kids When Their Parents are Apart. This book blends information from expert psychologists with poignant interviews with the real experts—the children of divorcing parents. The results are sympathetic, insightful answers to the &ldquo;how can I help&rdquo; question.</p>",
+            "<p>One key takeaway for readers is that children's responses to divorce varies according to their age. Part Two of the book addresses this with separate sections for babies and toddlers, preschoolers, five-to-eight-year-olds, preteens, and teenagers. The book includes four brief read-aloud stories for young children. It also provides insights about:</p>",
+            "<ul>",
+            "  <li>Explaining divorce to a child</li>",
+            "  <li>How parents and other adults, such as grandparents, church friends, and teachers, can help kids deal with divorce </li>",
+            "  <li>Why &ldquo;anything that aids the parent ultimately benefits the child&rdquo;</li>",
+            "</ul>",
+            "<p>Children of Divorce takes a candid and compassionate look at the truth about divorce, how it forever changes the lives of those it touches. But it also shines a bright light on how caring adults outside the family can make a positive difference for both kids and their parents.</p>"
+          ]
+        }
       ]
-    }
-  ],
-  "commentsAndReviews": [
-    {
-      "type": "quote",
-      "text": "Both as a pastor who gives this book as the best resource to those involved with helping children through split homes, and as a divorced father&hellip;this book provides great advice&hellip;so well done&hellip;",
-      "source": "Amazon Review"
     },
     {
-      "type": "quote",
-      "text": "I liked the book. It was the first book that I read about how divorce affects children. Since I am in the middle of a divorce it's important for me to know how to help my children cope. The most important thing I learned from the book is to constantly tell the kids over and over that the divorce was not their fault. Children did not cause it, they cannot fix it! Definitely suggest anyone going through a divorce that has children to read it! ",
-      "source": "Goodreads Review"
+      "name": "Comments And Reviews",
+      "content": [
+        {
+          "type": "quote",
+          "text": "Both as a pastor who gives this book as the best resource to those involved with helping children through split homes, and as a divorced father&hellip;this book provides great advice&hellip;so well done&hellip;",
+          "source": "Amazon Review"
+        },
+        {
+          "type": "quote",
+          "text": "I liked the book. It was the first book that I read about how divorce affects children. Since I am in the middle of a divorce it's important for me to know how to help my children cope. The most important thing I learned from the book is to constantly tell the kids over and over that the divorce was not their fault. Children did not cause it, they cannot fix it! Definitely suggest anyone going through a divorce that has children to read it! ",
+          "source": "Goodreads Review"
+        }
+      ]
     }
   ],
   "linkCategories": [

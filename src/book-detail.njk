@@ -63,26 +63,13 @@ permalink: "books/{{ book.title | slugify }}/"
           {% for section in book.contentSections %}
             <a href="#book-{{section.name | slugify}}" class="d-flex align-items-center {% if loop.first %}current{% endif %}">{{section.name}}</a>
           {% endfor %}
-          {% if book.commentsAndReviews.length > 0 %}
-            <a href="#book-comments-and-reviews" class="d-flex align-items-center">Comments And Reviews</a>
-          {% endif %}
         </nav>
 
         {% for section in book.contentSections %}
           <div id="book-{{section.name | slugify}}" aria-label="{{section.name}}" class="{% if not loop.first %}d-none{% endif %}">
-            {% for line in section.lines %}
-              {% set baseUrl = '/' | url %}
-              {{ line | interpolate | safe | replace('/img/', baseUrl + 'img/')  }}
-            {% endfor %}
-          </div>
-        {% endfor %}
-
-        {% if book.commentsAndReviews.length > 0 %}
-          <div id="book-comments-and-reviews"
-               aria-label="Comments And Reviews"
-               class="d-none">
-            {% for obj in book.commentsAndReviews %}
+            {% for obj in section.content %}
               {% if obj.type == "quote"%}
+                {# Quote content #}
                 <figure>
                   <blockquote class="blockquote fs-6">
                     <p>{{obj.text | safe}}</p>
@@ -96,6 +83,7 @@ permalink: "books/{{ book.title | slugify }}/"
                   </figcaption>
                 </figure>
               {% else %}
+                {# If not a quote, assume raw HTML content as lines to loop through #}
                 {% for line in obj.lines %}
                   {% set baseUrl = '/' | url %}
                   {{ line | interpolate | safe | replace('/img/', baseUrl + 'img/')  }}
@@ -103,7 +91,7 @@ permalink: "books/{{ book.title | slugify }}/"
               {% endif %}
             {% endfor %}
           </div>
-        {% endif %}
+        {% endfor %}
 
       </div>
     </div>

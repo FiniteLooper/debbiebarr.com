@@ -11,65 +11,73 @@
   "contentSections": [
     {
       "name": "Description",
-      "lines": [
-        "<p class='lead'>I wrote this devotional book out of a deep concern and compassion for dementia caregivers, recognizing their need for faith-based encouragement. <em>Grace for the Unexpected Journey</em> is unique among devotionals because dementia caregiving is a unique, more difficult kind of caregiving.</p>",
-        "<p>A loved one's diagnosis of Alzheimer's or another kind of dementia almost always comes as a shock. Along with that diagnosis, spouses, adult children, and other family members find themselves embarking on a journey they never expected to take: caregiving.</p>",
-        "<p>While many people provide care for a family member who is ill or elderly, caregiving for someone with dementia comes added heartbreak. Caregivers must witness the slow unravelling of the emotional bonds that connect family members to one another. As the person's capacity for emotional connection declines, and their need for physical care dramatically increases, dementia caregiving becomes an increasingly difficult journey. Caregivers often also struggle with many practical needs of their own: sleep deprivation, lack time for themselves, and the frustration of not having enough help and support from others.</p>",
-        "<p>The 60 daily devotionals of <em>Grace for the Unexpected Journey</em> comfort caregivers though relatable stories about the common emotional and practical hardships of caregiving, such as anger, loneliness, weariness, feeling guilty, discouragement, and depression. The book helps normalize these emotions and encourages readers to draw near to God in all the stresses of dementia caregiving—because he alone gives deep <em>Grace for the Unexpected Journey</em>.</p>",
-        "<hr>",
-        "<h4>Radio Interviews</h4>",
-        "<ul>",
-        "  <li><a href='https://moodyaudio.com/products/grace-unexpected-journey' target='_blank'>Chris Fabry Live</a></li>",
-        "  <li><a href='https://moodyaudio.com/products/grace-unexpected-journey-0' target='_blank'>Building Relationships with Dr. Gary Chapman</a></li>",
-        "</ul>"
+      "content": [
+        {
+          "type": "html",
+          "lines": [
+            "<p class='lead'>I wrote this devotional book out of a deep concern and compassion for dementia caregivers, recognizing their need for faith-based encouragement. <em>Grace for the Unexpected Journey</em> is unique among devotionals because dementia caregiving is a unique, more difficult kind of caregiving.</p>",
+            "<p>A loved one's diagnosis of Alzheimer's or another kind of dementia almost always comes as a shock. Along with that diagnosis, spouses, adult children, and other family members find themselves embarking on a journey they never expected to take: caregiving.</p>",
+            "<p>While many people provide care for a family member who is ill or elderly, caregiving for someone with dementia comes added heartbreak. Caregivers must witness the slow unravelling of the emotional bonds that connect family members to one another. As the person's capacity for emotional connection declines, and their need for physical care dramatically increases, dementia caregiving becomes an increasingly difficult journey. Caregivers often also struggle with many practical needs of their own: sleep deprivation, lack time for themselves, and the frustration of not having enough help and support from others.</p>",
+            "<p>The 60 daily devotionals of <em>Grace for the Unexpected Journey</em> comfort caregivers though relatable stories about the common emotional and practical hardships of caregiving, such as anger, loneliness, weariness, feeling guilty, discouragement, and depression. The book helps normalize these emotions and encourages readers to draw near to God in all the stresses of dementia caregiving—because he alone gives deep <em>Grace for the Unexpected Journey</em>.</p>",
+            "<hr>",
+            "<h4>Radio Interviews</h4>",
+            "<ul>",
+            "  <li><a href='https://moodyaudio.com/products/grace-unexpected-journey' target='_blank'>Chris Fabry Live</a></li>",
+            "  <li><a href='https://moodyaudio.com/products/grace-unexpected-journey-0' target='_blank'>Building Relationships with Dr. Gary Chapman</a></li>",
+            "</ul>"
+          ]
+        }
       ]
-    }
-  ],
-  "commentsAndReviews": [
-    {
-      "type": "quote",
-      "text": "As a somewhat confused, overwhelmed, and heartbroken caregiver, I have found this to be the most practical and encouraging book I have read so far!! Definitely a five star must-read!!!",
-      "source": "Amazon Review"
     },
     {
-      "type": "quote",
-      "text": "This is my all-time favorite devotional for caregivers &hellip; I have purchased at least 7 copies to give to other caregivers. &hellip;when I started caring for my husband with early onset Alzheimer's I searched for Christian based books many of which didn't really seem to know what we were going thru; this one did.",
-      "source": "Amazon Review"
-    },
-    {
-      "type": "quote",
-      "text": "I highly recommend this book! &hellip; My husband has Alzheimer's and this book has helped me cope with his needs. It has supported me and made me feel that I'm not alone. If you are a sole caregiver or a primary caregiver Grace for the Unexpected Journey will help you. I cannot recommend this book highly enough!",
-      "source": "Amazon Review"
-    },
-    {
-      "type": "quote",
-      "text": "Thank you from the bottom of my heart for the devotional. It is deeply meaningful to me. Frankly, when I received it even before reading one word I sobbed. I believe I shed some tears because someone &ldquo;gets it.&rdquo; You understand. Tears of gratitude. (Caregiving) is the hardest job&hellip;",
-      "source": "Caregiver for two adult children"
-    },
-    {
-      "type": "quote",
-      "text": "This book is a breath of fresh air&hellip; Inside this book is so much peace and encouragement. The author seems like a friend now giving advice and not just a person who wrote a book to help someone like me.",
-      "source": "Goodreads Review"
-    },
-    {
-      "type": "quote",
-      "text": "I randomly discovered your devotional book and I can't tell you what a difference it has made to me. Every devotion puts you in touch with how you're being affected and even makes you discover feelings you may not have explored yet.",
-      "source": "Caregiver"
-    },
-    {
-      "type": "quote",
-      "text": "I am a caregiver for my husband who has frontal temporal dementia and supranuclear palsy&hellip; Your devotional is one that I have been craving for so long. It truly fills my soul and speaks directly to what I am facing every day and for the past 8 years!! Thank you.",
-      "source": "Caregiver comment via website"
-    },
-    {
-      "type": "html",
-      "lines": [
-        "<h4>Articles</h4>",
-        "<ul>",
-        "  <li><a href='https://www.publishersweekly.com/9780802416780' target='_blank'>Publishers Weekly</a></li>",
-        "  <li><a href='https://forsythfamilymagazine.com/deborah-barr-grace-unexpected-journey/' target='_blank'>Forsyth Family Magazine</a></li>",
-        "  <li><a href='/img/book-extras/Grace-LifeWay Pastors.pdf' target='_blank'>Lifeway Pastors <small>PDF</small></a></li>",
-        "</ul>"
+      "name": "Comments And Reviews",
+      "content": [
+        {
+          "type": "quote",
+          "text": "As a somewhat confused, overwhelmed, and heartbroken caregiver, I have found this to be the most practical and encouraging book I have read so far!! Definitely a five star must-read!!!",
+          "source": "Amazon Review"
+        },
+        {
+          "type": "quote",
+          "text": "This is my all-time favorite devotional for caregivers &hellip; I have purchased at least 7 copies to give to other caregivers. &hellip;when I started caring for my husband with early onset Alzheimer's I searched for Christian based books many of which didn't really seem to know what we were going thru; this one did.",
+          "source": "Amazon Review"
+        },
+        {
+          "type": "quote",
+          "text": "I highly recommend this book! &hellip; My husband has Alzheimer's and this book has helped me cope with his needs. It has supported me and made me feel that I'm not alone. If you are a sole caregiver or a primary caregiver Grace for the Unexpected Journey will help you. I cannot recommend this book highly enough!",
+          "source": "Amazon Review"
+        },
+        {
+          "type": "quote",
+          "text": "Thank you from the bottom of my heart for the devotional. It is deeply meaningful to me. Frankly, when I received it even before reading one word I sobbed. I believe I shed some tears because someone &ldquo;gets it.&rdquo; You understand. Tears of gratitude. (Caregiving) is the hardest job&hellip;",
+          "source": "Caregiver for two adult children"
+        },
+        {
+          "type": "quote",
+          "text": "This book is a breath of fresh air&hellip; Inside this book is so much peace and encouragement. The author seems like a friend now giving advice and not just a person who wrote a book to help someone like me.",
+          "source": "Goodreads Review"
+        },
+        {
+          "type": "quote",
+          "text": "I randomly discovered your devotional book and I can't tell you what a difference it has made to me. Every devotion puts you in touch with how you're being affected and even makes you discover feelings you may not have explored yet.",
+          "source": "Caregiver"
+        },
+        {
+          "type": "quote",
+          "text": "I am a caregiver for my husband who has frontal temporal dementia and supranuclear palsy&hellip; Your devotional is one that I have been craving for so long. It truly fills my soul and speaks directly to what I am facing every day and for the past 8 years!! Thank you.",
+          "source": "Caregiver comment via website"
+        },
+        {
+          "type": "html",
+          "lines": [
+            "<h4>Articles</h4>",
+            "<ul>",
+            "  <li><a href='https://www.publishersweekly.com/9780802416780' target='_blank'>Publishers Weekly</a></li>",
+            "  <li><a href='https://forsythfamilymagazine.com/deborah-barr-grace-unexpected-journey/' target='_blank'>Forsyth Family Magazine</a></li>",
+            "  <li><a href='/img/book-extras/Grace-LifeWay Pastors.pdf' target='_blank'>Lifeway Pastors <small>PDF</small></a></li>",
+            "</ul>"
+          ]
+        }
       ]
     }
   ],
