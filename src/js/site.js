@@ -120,7 +120,7 @@
     const $status = document.querySelector('#form-status');
     const txtClassSuccess = 'text-success';
     const txtClassError = 'text-danger';
-    const msgSuccess = "Thanks! I'll be in contact with you soon!";
+    const msgSuccess = 'Thanks for your note. Debbie will respond to you soon.';
     const msgError = 'Oops! There was a problem submitting your message, try again later!';
 
     $form.addEventListener('submit', async function (event) {
