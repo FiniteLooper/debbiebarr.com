@@ -1,7 +1,6 @@
 ---
 layout: layout.njk
 title:
-featureText: Available for Preorder Now
 quoteText: A writer only begins a book. A reader finishes it.
 quoteSource: Samuel Johnson
 quoteColWidth: 12
@@ -17,11 +16,11 @@ quoteColWidth: 12
 <div id="home-feature" class="flush-with-header">
   <div class="container">
     <div class="row justify-content-end">
-      <div class="col-8 col-sm-8 col-md-9 col-lg-4 col-xl-5">
+      <div class="col-8 col-sm-8 col-md-9 col-lg-4 col-xl-4 text-end">
         <h2>2024 Releases</h2>
-        <p class="d-none d-sm-block">{{ featureText }}</p>
+        <p>Available for Preorder Now</p>
       </div>
-      <div class="col-12 col-lg-4 col-xl-5">
+      <div class="col-12 col-lg-5">
         <div id="home-feature-books">
           {% for book in booksArr | sort(false, false, "publishDate") | reverse %}
             <a href="{{ '/books/' | url }}{{ book.title | slugify | url }}">
@@ -37,7 +36,6 @@ quoteColWidth: 12
   </div>
 </div>
 <div class="container">
-  <p class="d-sm-none" aria-hidden="true">{{ featureText }}</p>
   {% include "quote.njk" %}
   <small class="text-body-tertiary">Photo Artistry by Melinda Lamm</small>
 </div>
