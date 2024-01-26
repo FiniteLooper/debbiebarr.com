@@ -6,12 +6,12 @@ const nunjucks = require('nunjucks');
 
 module.exports = (eleventyConfig) => {
   const isBuildMode = process.env.ELEVENTY_RUN_MODE === 'build';
+  const baseUrl = isBuildMode ? 'https://finitelooper.github.io/debbiebarr.com/' : 'http://localhost:8080/';
 
   eleventyConfig.addPassthroughCopy('src/img');
 
-  eleventyConfig.addNunjucksFilter('interpolate', (str) =>
-    nunjucks.renderString(str, eleventyConfig),
-  );
+  eleventyConfig.addFilter('absoluteUrl', (url) => new URL(url, baseUrl).href);
+  eleventyConfig.addNunjucksFilter('interpolate', (str) => nunjucks.renderString(str, eleventyConfig));
 
   eleventyConfig.addTemplateFormats('js');
   eleventyConfig.addExtension('js', {
