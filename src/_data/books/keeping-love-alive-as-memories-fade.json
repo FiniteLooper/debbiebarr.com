@@ -115,6 +115,10 @@
       "type": "Paperback",
       "links": [
         {
+          "name": "ChristianBook",
+          "url": "https://www.christianbook.com/keeping-alive-memories-languages-alzheimers-journey/debbie-barr/9780802414502/pd/414502?event=AAI"
+        },
+        {
           "name": "Amazon",
           "url": "https://www.amazon.com/Keeping-Love-Alive-Memories-`Fade/dp/0802414508"
         },
@@ -135,6 +139,10 @@
           "url": "https://www.amazon.nl/vijf-talen-liefde-dementie-herinneringen/dp/9033804182/"
         },
         {
+          "name": "Jongbloed <small>(Dutch)</small>",
+          "url": "https://www.jongbloedmedia.nl/product/de-vijf-talen-van-de-liefde-bij-dementie/"
+        },
+        {
           "name": "Barnes & Noble",
           "url": "https://www.barnesandnoble.com/w/keeping-love-alive-as-memories-fade-gary-d-chapman/1123269129?ean=9780802414502"
         },
@@ -149,14 +157,6 @@
         {
           "name": "Fnac <small>(French)</small>",
           "url": "https://www.fnac.com/a16317514/Gary-Chapman-Aimer-un-proche-atteint-d-Alzheimer"
-        },
-        {
-          "name": "ChristianBook",
-          "url": "https://www.christianbook.com/keeping-alive-memories-languages-alzheimers-journey/debbie-barr/9780802414502/pd/414502?event=AAI"
-        },
-        {
-          "name": "Jongbloed <small>(Dutch)</small>",
-          "url": "https://www.jongbloedmedia.nl/product/de-vijf-talen-van-de-liefde-bij-dementie/"
         }
       ]
     },
