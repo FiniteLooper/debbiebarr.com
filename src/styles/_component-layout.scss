@@ -52,3 +52,16 @@ blockquote {
     }
   }
 }
+
+.callout-link {
+  border: 1px solid $site-color-highlight;
+  border-radius: $border-radius;
+  background-color: $site-color-lightest;
+  box-shadow: $box-shadow;
+  @include transition(all $site-duration-fast $site-ease-out-expo);
+
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: $box-shadow-lg;
+  }
+}

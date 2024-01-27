@@ -2,7 +2,7 @@
   "version": "0.2",
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
   "language": "en",
-  "words": ["stylelint", "goodreads"],
+  "words": ["stylelint", "goodreads", "callout"],
   "flagWords": [],
   "ignorePaths": ["node_modules/**", "package-lock.json", "package.json"]
 }
