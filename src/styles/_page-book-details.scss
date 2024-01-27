@@ -18,6 +18,19 @@ $details-header-img-height: 300px;
 
   h2 {
     font-size: 4rem;
+
+    @include media-breakpoint-only(xs) {
+      //XS size ONLY!!
+      &.long-title {
+        line-height: 1;
+        font-size: 3.5rem;
+      }
+    }
+
+    &.very-long-title {
+      line-height: 1;
+      font-size: 2.9rem;
+    }
   }
 
   h3 {

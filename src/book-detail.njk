@@ -12,11 +12,12 @@ pagination:
   size: 1
 permalink: "books/{{ book.title | slugify }}/"
 ---
-
+{% set hasLongTitle = book.title.length > 25 %}
+{% set hasVeryLongTitle = book.title.length > 40 %}
 <div id="book-details-wrapper" class="flush-with-header" style="background-image:url('{{book.detailHeaderImageUrl | url}}');">
   <div class="container position-relative">
     <div id="book-details-titles">
-      <h2 class="mb-0">{{ book.title }}</h2>
+      <h2 class="mb-0{% if hasVeryLongTitle %} very-long-title{% elif hasLongTitle %} long-title{% endif %}">{{ book.title }}</h2>
       <h3 class="mt-4 mb-0">{{ book.subtitle }}</h3>
     </div>
   </div>
@@ -27,10 +28,8 @@ permalink: "books/{{ book.title | slugify }}/"
           <div class="col-5 col-lg-12 order-lg-last" id="book-details-links">
             {% if book.isCaregivers %}
               <div class="mt-4">
-              See my other
-              <a href="{{ '/books/books-for-caregivers' | url }}"
-                >books for caregivers</a
-              >
+                See my other
+                <a href="{{ '/books/books-for-caregivers' | url }}">books for caregivers</a>
               </div>
             {% endif %}
             <ul class="list-unstyled mt-4 mb-0">
@@ -57,9 +56,7 @@ permalink: "books/{{ book.title | slugify }}/"
         </div>
       </div>
       <div class="col-12 col-lg-8" id="book-details-content">
-        <nav
-          class="sub-navigation my-4 mt-lg-0 d-flex justify-content-center align-items-stretch align-items-md-end text-uppercase"
-        >
+        <nav class="sub-navigation my-4 mt-lg-0 d-flex justify-content-center align-items-stretch align-items-md-end text-uppercase">
           {% for section in book.contentSections %}
             <a href="#book-{{section.name | slugify}}" class="d-flex align-items-center {% if loop.first %}current{% endif %}">{{section.name}}</a>
           {% endfor %}
