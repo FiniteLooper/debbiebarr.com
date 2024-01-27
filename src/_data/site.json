@@ -7,6 +7,7 @@
     { "name": "Home", "url": "/" },
     { "name": "Books", "url": "/books/" },
     { "name": "About", "url": "/about/" },
-    { "name": "Contact", "url": "/contact/" }
+    { "name": "Contact", "url": "/contact/" },
+    { "name": "GoodReads", "url": "https://goodreads.com/", "icon": "goodreads-logo" }
   ]
 }

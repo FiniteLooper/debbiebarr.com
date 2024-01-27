@@ -1,19 +1,14 @@
 {% for nav in site.navigation %}
-  {% if nav.name == 'Facebook' %}
-    <a href="{{nav.url | url}}"
-       target="_blank"
-       class="facebook-link"
-       aria-label="{{nav.name}}">
-      <svg class="icon" role="img"><use xlink:href="#facebook-logo"/></svg>
+  {% if nav.icon %}
+    <a href="{{nav.url | url}}" target="_blank" class="nav-icon" title="{{nav.name}}" aria-label="{{nav.name}}">
+      <svg class="icon" role="img"><use xlink:href="#{{nav.icon}}"/></svg>
     </a>
   {% elif nav.name == 'Home' %}
-    <a href="{{nav.url | url}}"
-       class="{% if page.url == nav.url %}current{% endif %}">
+    <a href="{{nav.url | url}}" class="{% if page.url == nav.url %}current{% endif %}">
       {{nav.name}}
     </a>
   {% else %}
-    <a href="{{nav.url | url}}"
-       class="{% if nav.url in page.url %}current{% endif %}">
+    <a href="{{nav.url | url}}" class="{% if nav.url in page.url %}current{% endif %}">
       {{nav.name}}
     </a>
   {% endif %}
