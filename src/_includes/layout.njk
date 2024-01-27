@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    {% set pageTitle = site.name %}
+    {% if title %}
+      {% set pageTitle = pageTitle + ' | ' + title %}
+    {% endif %}
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="theme-color" content="#23211E"/>
     <meta name="author" content="{{site.name}}"/>
     <meta name="description" content="{{site.description}}"/>
     <meta property="og:image" content="{{ 'img/social-share.jpg' | absoluteUrl }}"/>
-    <meta property="og:title" content="{{ site.name }}{% if title %} | {{ title }}{% endif %}"/>
+    <meta property="og:title" content="{{pageTitle}}"/>
     <meta property="og:description" content="{{ site.description }}"/>
-    <title>{{ site.name }}
-      {% if title %} | {{ title }}
-      {% endif %}
-    </title>
+    <title>{{pageTitle}}</title>
     <link rel="manifest" href="{{ '/img/favicon/site.webmanifest' | url }}"/>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="{{ '/img/favicon/favicon.ico' | url }}"/>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="{{ '/img/favicon/apple-touch-icon.png' | url }}"/>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="{{ '/img/favicon/favicon-32x32.png' | url }}"/>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="{{ '/img/favicon/favicon-16x16.png' | url }}"/>
+    <link rel="icon" type="image/x-icon" href="{{ '/img/favicon/favicon.ico' | url }}"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/img/favicon/apple-touch-icon.png' | url }}"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/favicon/favicon-32x32.png' | url }}"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/img/favicon/favicon-16x16.png' | url }}"/>
     <link rel="stylesheet" href="https://use.typekit.net/ukz7kdm.css"/>
     <link rel="stylesheet" href="{{ '/styles/bootstrap.css' | url }}"/>
     <link rel="stylesheet" href="{{ '/styles/site.css' | url }}"/>
@@ -39,12 +26,7 @@
   <body class="d-flex flex-column">
     <header id="header">
       <div class="d-flex justify-content-sm-between justify-content-md-center">
-        <button
-          type="button"
-          id="toggle-sidebar"
-          class="d-md-none"
-          aria-label="Toggle Navigation"
-        >
+        <button type="button" id="toggle-sidebar" class="d-md-none" aria-label="Toggle Navigation">
           ☰
         </button>
         <h1 class="text-uppercase">{{site.name}}</h1>
@@ -52,10 +34,7 @@
           ☰
         </div>
       </div>
-      <nav
-        id="header-navigation"
-        class="container d-none d-md-flex justify-content-center align-items-end text-uppercase"
-      >
+      <nav id="header-navigation" class="container d-none d-md-flex justify-content-center align-items-end text-uppercase">
         {% include "navigation-links.njk" %}
       </nav>
     </header>
