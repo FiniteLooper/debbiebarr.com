@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: ['main']
-    paths-ignore: ['.vscode/**', 'README.md', '.*']
+    paths-ignore: ['.vscode/**', 'README.md', '.*', 'design/**']
 permissions:
   contents: write
 jobs:
