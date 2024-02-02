@@ -16,7 +16,7 @@
       &:hover,
       &:focus {
         img {
-          transform: scale(1.03);
+          transform: scale($site-book-hover-scale);
           box-shadow: $box-shadow-lg;
         }
       }

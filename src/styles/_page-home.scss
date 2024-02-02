@@ -80,6 +80,20 @@
   position: relative;
   bottom: -60px;
 
+  a {
+    box-shadow: $box-shadow;
+    @include transition(all $site-duration-fast $site-ease-out-expo);
+
+    @media (prefers-reduced-motion: no-preference) {
+      //hover transition only for those with no motion preference
+      &:hover,
+      &:focus {
+        transform: scale($site-book-hover-scale);
+        box-shadow: $box-shadow-lg;
+      }
+    }
+  }
+
   @include media-breakpoint-up(sm) {
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
