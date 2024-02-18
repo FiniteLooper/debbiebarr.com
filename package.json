@@ -13,7 +13,7 @@
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
     "build": "npm run clean && npx @11ty/eleventy",
-    "build:gh-pages": "npx @11ty/eleventy --pathprefix 'debbiebarr.com'",
+    "build:gh-pages": "npx @11ty/eleventy",
     "clean": "npx rimraf _site",
     "lint": "npm-run-all -s -c lint:scss lint:js",
     "lint:js": "npx eslint --fix",

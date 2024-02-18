@@ -14,14 +14,14 @@
     <meta property="og:title" content="{{pageTitle}}"/>
     <meta property="og:description" content="{{ site.description }}"/>
     <title>{{pageTitle}}</title>
-    <link rel="manifest" href="/img/favicon/site.webmanifest"/>
-    <link rel="icon" type="image/x-icon" href="/img/favicon/favicon.ico"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png"/>
+    <link rel="manifest" href="{{ '/img/favicon/site.webmanifest' | url }}"/>
+    <link rel="icon" type="image/x-icon" href="{{ '/img/favicon/favicon.ico' | url }}"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/img/favicon/apple-touch-icon.png' | url }}"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/favicon/favicon-32x32.png' | url }}"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/img/favicon/favicon-16x16.png' | url }}"/>
     <link rel="stylesheet" href="https://use.typekit.net/ukz7kdm.css"/>
-    <link rel="stylesheet" href="/styles/bootstrap.css"/>
-    <link rel="stylesheet" href="/styles/site.css"/>
+    <link rel="stylesheet" href="{{ '/styles/bootstrap.css' | url }}"/>
+    <link rel="stylesheet" href="{{ '/styles/site.css' | url }}"/>
   </head>
   <body class="d-flex flex-column">
     <header id="header">
@@ -78,6 +78,6 @@
       </symbol>
     </svg>
 
-    <script src="/js/site.js"></script>
+    <script src="{{ '/js/site.js' | url }}"></script>
   </body>
 </html>
