@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/FiniteLooper/debbiebarr.com.git"
   },
-  "bugs": {
-    "url": "https://github.com/FiniteLooper/debbiebarr.com/issues"
-  },
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
     "build": "npm run clean && npx @11ty/eleventy",

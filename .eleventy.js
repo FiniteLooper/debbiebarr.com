@@ -6,7 +6,7 @@ const nunjucks = require('nunjucks');
 
 module.exports = (eleventyConfig) => {
   const isBuildMode = process.env.ELEVENTY_RUN_MODE === 'build';
-  const baseUrl = isBuildMode ? 'https://finitelooper.github.io/debbiebarr.com/' : 'http://localhost:8080/';
+  const baseUrl = isBuildMode ? 'https://debbiebarr.com/' : 'http://localhost:8080/';
 
   eleventyConfig.addPassthroughCopy('src/img');
 
