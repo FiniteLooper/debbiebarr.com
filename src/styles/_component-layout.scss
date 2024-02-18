@@ -12,12 +12,13 @@ html {
     border-radius: $border-radius-sm;
   }
 }
+
 .btn:focus-visible {
   outline-color: $site-color-link !important;
 }
 
 blockquote {
-  //same as navigation
+  // Same as navigation
   font-weight: 300;
 }
 
@@ -58,6 +59,7 @@ blockquote {
   border-radius: $border-radius;
   background-color: $site-color-lightest;
   box-shadow: $box-shadow;
+
   @include transition(all $site-duration-fast $site-ease-out-expo);
 
   &:hover {

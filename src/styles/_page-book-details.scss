@@ -20,7 +20,7 @@ $details-header-img-height: 300px;
     font-size: 4rem;
 
     @include media-breakpoint-only(xs) {
-      //XS size ONLY!!
+      // XS size ONLY!!
       &.long-title {
         line-height: 1;
         font-size: 3.5rem;
@@ -61,7 +61,7 @@ $details-header-img-height: 300px;
 #book-details-content {
   .sub-navigation {
     // Match the height of the sub-navigation by combining the line height in REM + the top & bottom padding
-    //This CSS var will also be set by JS upon a page resize event
+    // This CSS var will also be set by JS upon a page resize event
     --book-details-subnav-bg-height: calc(calc($site-sub-nav-item-padding * 2) + #{$site-shared-nav-line-height}rem); // ~52px
 
     // pseudo-element added to make it look like it's full-width
@@ -80,13 +80,13 @@ $details-header-img-height: 300px;
       text-align: center;
 
       @include media-breakpoint-only(xs) {
-        //XS size ONLY!!
-        padding-left: calc($site-sub-nav-item-padding/2);
-        padding-right: calc($site-sub-nav-item-padding/2);
+        // XS size ONLY!!
+        padding-left: calc($site-sub-nav-item-padding / 2);
+        padding-right: calc($site-sub-nav-item-padding / 2);
       }
 
       @include media-breakpoint-down(md) {
-        //XS and SM sizes ONLY!!
+        // XS and SM sizes ONLY!!
         line-height: 1;
       }
     }

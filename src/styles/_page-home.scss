@@ -82,10 +82,11 @@
 
   a {
     box-shadow: $box-shadow;
+
     @include transition(all $site-duration-fast $site-ease-out-expo);
 
     @media (prefers-reduced-motion: no-preference) {
-      //hover transition only for those with no motion preference
+      // Hover transition only for those with no motion preference
       &:hover,
       &:focus {
         transform: scale($site-book-hover-scale);
@@ -98,9 +99,6 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     bottom: -200px;
-  }
-
-  @include media-breakpoint-up(md) {
   }
 
   @include media-breakpoint-up(lg) {

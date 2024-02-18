@@ -2,9 +2,11 @@
 
 #books-grid {
   img {
-    //the actual book cover
+    // The actual book cover
     z-index: 1;
+
     @include transition(all $site-duration-fast $site-ease-out-expo);
+
     box-shadow: $box-shadow;
   }
 
@@ -12,7 +14,7 @@
     position: relative;
 
     @media (prefers-reduced-motion: no-preference) {
-      //hover transition only for those with no motion preference
+      // Hover transition only for those with no motion preference
       &:hover,
       &:focus {
         img {
@@ -24,16 +26,16 @@
   }
 
   .book-bg-container {
-    //contain the blurred BG image
+    // Contain the blurred BG image
     position: absolute;
     inset: 0 calc(var(--bs-gutter-x) * 0.5) 0 calc(var(--bs-gutter-x) * 0.5);
     overflow: hidden;
   }
 
   .book-bg {
-    //The blurred BG image to make everything appear to be even height
+    // The blurred BG image to make everything appear to be even height
     position: absolute;
-    inset: 0 0 0 0;
+    inset: 0;
     background-size: 120%;
     background-position: center center;
     filter: blur(10px);

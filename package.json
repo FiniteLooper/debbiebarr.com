@@ -19,10 +19,8 @@
     "build:gh-pages": "npx @11ty/eleventy --pathprefix 'debbiebarr.com'",
     "clean": "npx rimraf _site",
     "lint": "npm-run-all -s -c lint:scss lint:js",
-    "lint:js": "npx eslint",
-    "lint:js:fix": "npx eslint --fix",
-    "lint:scss": "npx stylelint \"**/*.scss\"",
-    "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
+    "lint:js": "npx eslint --fix",
+    "lint:scss": "npx stylelint \"**/*.scss\" --fix",
     "update": "ncu -u && npm i"
   },
   "devDependencies": {

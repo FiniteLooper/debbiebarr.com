@@ -39,6 +39,7 @@
   color: $site-shared-nav-color;
   line-height: $site-shared-nav-line-height;
   text-decoration: none;
+
   @include transition(all $site-duration-fast $site-ease-out-expo);
 
   &:hover,
@@ -126,7 +127,9 @@
 #sidebar {
   background: $site-sidebar-bg;
   transform: translateX(-100%);
+
   @include transition($site-duration transform $site-ease-out-expo);
+
   z-index: $site-sidebar-z-index;
   overflow: auto; // allow scrolling for short screens
 
@@ -153,6 +156,7 @@
   background-color: $site-sidebar-backdrop-bg;
   opacity: 0;
   pointer-events: none;
+
   @include transition($site-duration opacity);
 
   .sidebar-open & {
