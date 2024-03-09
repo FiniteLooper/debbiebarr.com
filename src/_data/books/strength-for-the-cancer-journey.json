@@ -46,7 +46,7 @@
         {
           "type": "html",
           "lines": [
-            "<img srcset='/img/book-extras/strength-gary-quote@2x.jpg 2x, /img/book-extras/strength-gary-quote@1x.jpg 1x' src='/img/book-extras/strength-gary-quote@1x.jpg' class='img-fluid mb-4' alt='If you know of someone who has cancer, Strength for the Cancer Journey, will be a welcomed gift. - Gary Chapman, Ph.D., author of The 5 Love Languages'/>"
+            "<img srcset='/img/book-extras/strength-gary-quote@2x.jpg 2x, /img/book-extras/strength-gary-quote@1x.jpg 1x' src='/img/book-extras/strength-gary-quote@1x.jpg' class='img-fluid' alt='If you know of someone who has cancer, Strength for the Cancer Journey, will be a welcomed gift. - Gary Chapman, Ph.D., author of The 5 Love Languages'/>"
           ]
         },
         {

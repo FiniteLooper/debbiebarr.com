@@ -65,7 +65,10 @@ permalink: "books/{{ book.title | slugify }}/"
         {% for section in book.contentSections %}
           <div id="book-{{section.name | slugify}}" aria-label="{{section.name}}" class="{% if not loop.first %}d-none{% endif %}">
             {% for obj in section.content %}
-              {% if obj.type == "quote"%}
+              {% if not loop.first %}
+                <hr>
+              {% endif %}
+              {% if obj.type == "quote" %}
                 {# Quote content #}
                 <figure>
                   <blockquote class="blockquote fs-6">
