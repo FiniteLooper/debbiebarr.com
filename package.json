@@ -11,7 +11,7 @@
     "url": "git+https://github.com/FiniteLooper/debbiebarr.com.git"
   },
   "scripts": {
-    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
     "build": "npm run clean && npx @11ty/eleventy",
     "build:gh-pages": "npx @11ty/eleventy",
     "clean": "npx rimraf _site",
