@@ -25,5 +25,40 @@
       ]
     }
   ],
-  "linkCategories": []
+  "linkCategories": [
+    {
+      "type": "Paperback",
+      "links": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/Mystery-Waiting-Works-While-Healing/dp/1496483618"
+        },
+        {
+          "name": "Aspire Press",
+          "url": "https://www.hendricksonrose.com/p/the-mystery-of-waiting/9781496483614"
+        },
+        {
+          "name": "Barnes &amp; Noble",
+          "url": "https://www.barnesandnoble.com/w/the-mystery-of-waiting-debbie-barr/1145003275?ean=9781496483614"
+        }
+      ]
+    },
+    {
+      "type": "Ebook",
+      "links": [
+        {
+          "name": "Kindle",
+          "url": "https://www.amazon.com/Mystery-Waiting-Works-While-Healing-ebook/dp/B0CW1LP4RW/"
+        },
+        {
+          "name": "Aspire Press <small>(PDF)</small>",
+          "url": "https://www.hendricksonrose.com/p/the-mystery-of-waiting/9781496483652"
+        },
+        {
+          "name": "Nook",
+          "url": "https://www.barnesandnoble.com/w/the-mystery-of-waiting-debbie-barr/1145003275?ean=9781496483638"
+        }
+      ]
+    }
+  ]
 }

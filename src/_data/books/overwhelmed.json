@@ -25,5 +25,40 @@
       ]
     }
   ],
-  "linkCategories": []
+  "linkCategories": [
+    {
+      "type": "Paperback",
+      "links": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/Overwhelmed-Stop-Trying-Hope-Healing/dp/1496483669"
+        },
+        {
+          "name": "Aspire Press",
+          "url": "https://www.hendricksonrose.com/p/overwhelmed/9781496483669"
+        },
+        {
+          "name": "Barnes &amp; Noble",
+          "url": "https://www.barnesandnoble.com/w/overwhelmed-debbie-barr/1145003274?ean=9781496483669"
+        }
+      ]
+    },
+    {
+      "type": "Ebook",
+      "links": [
+        {
+          "name": "Kindle",
+          "url": "https://www.amazon.com/Overwhelmed-Stop-Trying-Hope-Healing-ebook/dp/B0CWZCTFJH"
+        },
+        {
+          "name": "Aspire Press <small>(PDF)</small>",
+          "url": "https://www.hendricksonrose.com/p/overwhelmed/9781496483706"
+        },
+        {
+          "name": "Nook",
+          "url": "https://www.barnesandnoble.com/w/overwhelmed-debbie-barr/1145003274?ean=9781496483683"
+        }
+      ]
+    }
+  ]
 }
