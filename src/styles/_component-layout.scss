@@ -54,12 +54,14 @@ blockquote {
   }
 }
 
-.callout-link {
+.book-callout {
   border: 1px solid $site-color-highlight;
   border-radius: $border-radius;
   background-color: $site-color-lightest;
   box-shadow: $box-shadow;
+}
 
+a.book-callout {
   @include transition(all $site-duration-fast $site-ease-out-expo);
 
   &:hover {
