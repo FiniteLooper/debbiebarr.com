@@ -4,7 +4,7 @@
     {
       "label": "Local Dev",
       "type": "npm",
-      "script": "serve",
+      "script": "start",
       "icon": {
         "color": "terminal.ansiGreen",
         "id": "play"
