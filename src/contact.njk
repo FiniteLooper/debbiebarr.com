@@ -7,10 +7,9 @@ quoteSource: James Patterson
 
 <div class="container">
 
-  <p class="lead text-md-center">For media or speaking inquiries or to send Debbie a note, please fill out the form below</p>
-
-  <div class="row justify-content-center mb-4">
-    <div class="col col-md-8 col-lg-6">
+  <div class="row justify-content-between mb-4">
+    <div class="col-md-6 col-lg-6">
+      <p class="lead">To send Debbie a note, please fill out the form below</p>
       <form id="contact-form" class="needs-validation" method="post" action="https://formspree.io/f/xdoqkgre" novalidate>
         <div class="form-floating mb-3">
           <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" autocomplete="name" required/>
@@ -47,12 +46,20 @@ quoteSource: James Patterson
         <div class="row">
           <div class="col-auto">
             <button type="submit" class="btn btn-primary btn-lg shadow">
+              <svg class="icon" role="img"><use xlink:href="#icon-send-fill"/></svg>
               Send!
             </button>
           </div>
           <div class="col" id="form-status"></div>
         </div>
       </form>
+    </div>
+    <div class="col-md-6 col-lg-5 mt-5 mt-md-0">
+      <p class="">Interested in having Debbie speak to your group or be on your program? Download this Press Kit to share with your church or organization.</p>
+      <a class="btn btn-primary" download href="/img/book-extras/Debbie-Barr_Press-Kit-2024.pdf">
+        <svg class="icon" role="img"><use xlink:href="#icon-file-earmark-pdf-fill"/></svg>
+        Download Press Kit
+      </a>
     </div>
   </div>
   {% include "quote.njk" %}
