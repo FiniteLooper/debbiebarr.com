@@ -13,6 +13,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('src/img');
 
   eleventyConfig.addFilter('absoluteUrl', (url) => new URL(url, baseUrl).href);
+  eleventyConfig.addFilter('cacheBreakerQueryString', (url) => `${url}?publish=${Date.now()}`);
   eleventyConfig.addNunjucksFilter('interpolate', (str) => nunjucks.renderString(str, eleventyConfig));
 
   eleventyConfig.addTemplateFormats('js');

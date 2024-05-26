@@ -21,7 +21,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ '/img/favicon/favicon-16x16.png' | url }}"/>
     <link rel="stylesheet" href="https://use.typekit.net/ukz7kdm.css"/>
     <link rel="stylesheet" href="{{ '/styles/bootstrap.css' | url }}"/>
-    <link rel="stylesheet" href="{{ '/styles/site.css' | url }}?2024-04-20"/>
+    <link rel="stylesheet" href="{{ '/styles/site.css' | url | cacheBreakerQueryString}}"/>
 
     {% if isBuildMode %}
       <script type="text/javascript">
