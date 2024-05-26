@@ -8,6 +8,8 @@ module.exports = (eleventyConfig) => {
   const isBuildMode = process.env.ELEVENTY_RUN_MODE === 'build';
   const baseUrl = isBuildMode ? 'https://debbiebarr.com/' : 'http://localhost:8080/';
 
+  eleventyConfig.addGlobalData('isBuildMode', isBuildMode);
+
   eleventyConfig.addPassthroughCopy('src/img');
 
   eleventyConfig.addFilter('absoluteUrl', (url) => new URL(url, baseUrl).href);
