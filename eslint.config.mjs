@@ -16,7 +16,7 @@ export default [
       },
     },
     rules: {
-      'prettier/prettier': ['warn', { endOfLine: 'auto' }],
+      'prettier/prettier': 'warn',
     },
   },
 ];
