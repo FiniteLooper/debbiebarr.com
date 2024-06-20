@@ -1,0 +1,9 @@
+@use 'variables' as *;
+
+#about-image-podcast {
+  width: 100%;
+  @include media-breakpoint-up(xl) {
+    max-height: 258px;
+    width: auto;
+  }
+}
